@@ -23,10 +23,6 @@ export interface FaqTile {
 @inject("store")
 export default class FAQView extends React.Component<Props> {
 
-    public componentDidUpdate() {
-        console.log("updated")
-    }
-
     @observable private tiles: FaqTile[] = this.props.store.data.faqTiles.map((item) => {
         return (
             {

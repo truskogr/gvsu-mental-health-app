@@ -23,12 +23,14 @@ export interface GuideTileInfo {
     videoLink: string
     warningSigns: WarningSigns
     body?: GuideBody
+    secundaryBody?: string
     dosDonts: DosDonts[]
 }
 
 export interface DosDonts {
     do: string
     doBullets: string[]
+    doLast?: string
     dont: string
     dontBullets: string[]
 }
@@ -49,6 +51,7 @@ export interface ResourceTile {
     phone: string
     email?: string
     picture: string
+    hidden?: boolean
 }
 
 export interface TechniqueBody {
@@ -64,4 +67,5 @@ export interface TechniqueInfo {
 export interface EmergencyInfo {
     title: string
     body: string
+    shouldShowCan?: boolean
 }

@@ -1,5 +1,5 @@
 import { computed } from 'mobx'
-import { GuideTileInfo, HomeLinks, EmergencyInfo, FaqInfo, TechniqueInfo } from './models/data_models'
+import { GuideTileInfo, GuideResource, HomeLinks, EmergencyInfo, FaqInfo, TechniqueInfo, ResourceTile } from './models/data_models'
 
 import * as SystemData from '../stores/data.json'
 
@@ -33,9 +33,17 @@ export default class DataStore {
     }
 
     public guideResourceTiles(tile: GuideTileInfo) {
-        return this.resourceTiles.filter((res) => (
-            tile.resourcesRelevant.some((item) => item.name === res.department)
-        ))
+      let result: ResourceTile[] = [];
+      tile.resourcesRelevant.forEach((item) => {
+          this.resourceTiles.some((res)=>{
+              if(item.name === res.department) {
+                result.push(res);
+                return true;
+              }
+                return false;
+              });
+          });
+      return result;
     }
 
     //resource view elements

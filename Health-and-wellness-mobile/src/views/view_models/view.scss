@@ -3,17 +3,22 @@
 .view-title {
     align-content: center;
     justify-content: center;
+    color: black;
+    font-family:Gotham;
+    font-weight:400;
 }
 
 .view-body {
     height: 100%;
-    padding: $pad-md 0;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .view-emergency {
     width: 100%;
     padding: 0 5 * $pad-lg;
     overflow: none;
+    text-transform: uppercase;
 }
 
 .view-footer {

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GV Mental Health</string>
+    <string name="title_activity_main">GV Mental Health</string>
+    <string name="package_name">edu.gvsu.mentalhealth</string>
+    <string name="custom_url_scheme">edu.gvsu.mentalhealth</string>
+</resources>

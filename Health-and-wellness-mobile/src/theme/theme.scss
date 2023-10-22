@@ -1,3 +1,4 @@
+@import 'fonts.scss';
 //padding variables
 $pad-sm: 2px;
 $pad-md: 4px;
@@ -25,8 +26,8 @@ $border-radius-lg: 14px;
     text-align: center;
     vertical-align: center;
     font-size: $size;
-    line-height: $lineHeight;
     color: $primary-text;
+    font-family: Gotham;
 }
 
 @mixin font-bold($size: 11px, $lineHeight: 10px) {

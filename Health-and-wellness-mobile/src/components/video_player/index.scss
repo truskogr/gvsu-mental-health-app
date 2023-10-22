@@ -1,5 +1,21 @@
-@import '../../theme/theme.scss';
+@import "../../theme/theme.scss";
 
 .video-player {
-    margin: $pad-md;
+  position: relative;
+  margin: 0.5em auto;
+  display: block;
+  padding: 1em;;
+}
+
+.video-player_play_button {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 45%;
+  left: 45%;
+  font-size: 64px !important;
+}
+
+.technique-view__modal > .text-block {
+  padding: 0.5em;
 }

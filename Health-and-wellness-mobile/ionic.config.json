@@ -1,5 +1,7 @@
 {
-  "name": "health-and-wellness-mobile",
-  "integrations": {},
+  "name": "GV Mental Health",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }

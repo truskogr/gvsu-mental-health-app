@@ -20,7 +20,7 @@
 //Home View
 .home-view__wrappers {
     flex-grow: 1;
-    
+
 }
 
 .home-view {
@@ -33,13 +33,13 @@
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    padding: 0 5 * $pad-lg; 
 
     .scroll-tile {
         flex-grow: 1;
         width: 45vw;
-        height: 80px;
-        margin: $pad-sm;
+    }
+    .scroll-tile:first-child{
+      margin-right: 0.5em;
     }
 }
 
@@ -73,20 +73,31 @@
 
 //Guide View
 .guide-view__modal {
-    padding: $pad-modal;
+    @include font-regular();
+    font-weight: 100;
 }
 
 .guide-view__warning-signs {
-    padding-left: 3 * $pad-lg;
-    padding-top: $pad-sm;
+    padding-top: 2* $pad-sm;
+    @include font-regular();
+    color: black;
+    text-align: justify;
+    padding-right: 1em;
 }
 
 .guide-view__modal-header {
-    margin-top: $pad-lg;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
     @include font-sub-header();
     font-size: 24px;
     color: black;
+    position:relative;
     text-align: center;
+
+    ion-icon {
+      position: absolute;
+      right: 0px;;
+    }
 }
 
 .guide-view__modal-subheader {
@@ -94,21 +105,56 @@
     @include font-sub-header();
     border-radius: $border-radius;
     padding: $pad-lg;
+    margin-bottom: 1em;
+    margin-top: $pad-lg;;
     text-align: center;
 }
 
 .guide-view__modal-text {
     text-align: start;
+    @include font-regular();
+    color: black;
+    text-align: left;
     margin-bottom: $pad-lg;
 }
 
-.guide-view__modal-bullets {
-    margin-left: 3 * $pad-lg;
+.guide-view__dont .guide-view__modal-subheader,
+.guide-view__do .guide-view__modal-subheader{
+  background-color: inherit;
+  text-align: start;
+  margin: 0;
+  font-weight: 800;
+  font-size: 2.5em;
+  color: black;
+  padding: 0;
+  padding-bottom: 0.1em;
 }
 
+.guide-view__do {
+  background-color: #C9E1F4;
+  padding: 1em;
+  margin-bottom:0;
+  font-weight: 100;
+}
+
+.guide-view__dont {
+  background-color: #8DBFE3;
+  padding: 1em;
+  margin-bottom: 1em;
+  font-weight: 100;
+}
+.guide-view__dont>ul {
+  margin: 0;
+  padding-left: 3em;
+}
+.guide-view__do>ul {
+  margin: 0;
+  padding-left: 3em;
+}
 //Faq View
 .faq-view__dropdown {
-    padding: 2 * $pad-lg;
+  padding: 0 1em;
+  text-transform: initial;
 }
 
 .faq-view__dropdown-section--tabbed {
@@ -118,9 +164,9 @@
 //Techniques View
 
 .technique-view__header {
-    margin: 3 * $pad-lg;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .technique-view__modal {
-    margin: 3 * $pad-lg;
 }
