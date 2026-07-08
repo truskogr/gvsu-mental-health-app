@@ -26,7 +26,7 @@ export default class View extends React.Component<ViewProps> {
     }
 
     public render() {
-        const { title, body, enableEmergencyModal, store } = this.props
+        const { title, body } = this.props
         return (
             <IonPage>
                 <IonHeader>
@@ -34,8 +34,10 @@ export default class View extends React.Component<ViewProps> {
                         <IonTitle className="view-title">{title}</IonTitle>
                     </IonToolbar>
                 </IonHeader>
-                <IonContent className="view-body">
+                <IonContent >
+                  <div className="view-body">
                     {body}
+                  </div>
                 </IonContent>
                 {/* <FirebaseContext.Consumer>
                     {firebase =>
@@ -44,11 +46,9 @@ export default class View extends React.Component<ViewProps> {
                         </Modal>
                     }
                 </FirebaseContext.Consumer> */}
-                {enableEmergencyModal ?
                     <div className="view-emergency">
                         <EmergencyButton />
-                    </div> : null
-                }
+                    </div>
                 <div className="view-footer">
                     <span>University Counseling <br /> Center Information</span>
                 </div>
@@ -56,9 +56,9 @@ export default class View extends React.Component<ViewProps> {
         )
     }
 
-    private toggleLoginModal = () => {
-        const { store } = this.props
-        store.preferences.loginUser()
-        this.forceUpdate()
-    }
+    //private toggleLoginModal = () => {
+        //const { store } = this.props
+        //store.preferences.loginUser()
+        //this.forceUpdate()
+    //}
 }

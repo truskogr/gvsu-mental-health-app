@@ -1,708 +1,722 @@
 {
-    "home": {
-        "tiles": [
-            {
-                "label": "I have a student I am concerned about",
-                "link": "/guide"
-            },
-            {
-                "label": "FAQ",
-                "link": "/faq"
-            },
-            {
-                "label": "I have an emergency",
-                "link": ""
-            },
-            {
-                "label": "Classroom Techniques",
-                "link": "/techniques"
-            },
-            {
-                "label": "Campus Resources",
-                "link": "/resources"
-            }
-        ]
-    },
-    "guide": {
-        "tiles": [
-            {
-                "subscript": "is feeling",
-                "label": "Anxious",
-                "description": "[picture anxiety]\nLet’s face it: anxiety doesn’t feel good.  But, anxiety IS normal.  Feeling anxious is an expectable and healthy (albeit unpleasant) response to life’s stressors. . . .and can even be helpful sometimes.  If someone is anxious about a big test, they might study more.  If someone is anxious that they’ve done something wrong, they might go out of their way to make amends.  If someone is anxious about getting hurt, they might take extra precautions to protect themselves.  For some, though, anxiety can go from helpful to harmful.  Generally speaking, anxiety that is disproportionate to the situation, does not go away after the threat is gone, or makes it hard to fully engage in daily activities may be a sign of an anxiety disorder.\nThere are many anxiety disorders, including generalized anxiety, social anxiety, test anxiety, and phobias.  It is important to remember that anxiety may present differently in different people.",
-                "resourcesRelevant": [
-                    {
-                        "name": "University Counseling Center",
-                        "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit XYZ.  For additional information about how the UCC can support you and your students, visit: gvsu.edu.\n- Crisis services\n- Individual and group counseling\n- Community provider database\n- Online assessments and resources\n- Consultations for faculty and staff"
-                    },
-                    {
-                        "name": "Dean of Students",
-                        "body": "If you are concerned about a student and would like a member of the Division of Student Affairs to check-in with them, you can file a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report].  A Care Report is often the first step in connecting a student to mental health and other resources. If the student is feeling suicidal or otherwise in crisis, please click the “I Have An Emergency” button.\n- Care report"
-                    },
-                    {
-                        "name": "Disability Support Resources",
-                        "body": "Disability Support Resources provides assistance and accommodations to those with documented disabilities, including some mental health diagnoses.  If a student would like to receive an accommodation because a mental health concern and is not already a registered with DSR, please direct them to the Disability Support Resources office.\n- Accommodations"
-                    },
-                    {
-                        "name": "Registrars Office",
-                        "body": "If a student is anxious about their academic performance or progress, resources are available.  Advisors offer a wealth of support and are knowledgeable about academic policies and procedures.  There are also a number of offices across campus that can help with anything from choosing a major, to preparing for a big interview, to withdrawing from a class."
-                    },
-                    {
-                        "name": "Tutoring Center",
-                        "body": "If a student is anxious about their academic performance or progress, resources are available.  Advisors offer a wealth of support and are knowledgeable about academic policies and procedures.  There are also a number of offices across campus that can help with anything from choosing a major, to preparing for a big interview, to withdrawing from a class."
-                    }
-                ],
-                "videoLink": "https://www.youtube.com/watch?v=vtUdHOx494E",
-                "warningSigns": {
-                    "primaryHeader": "If someone is feeling anxious, you might notice that the person:",
-                    "primarySigns": [
-                        "Is worrying more than the situation might otherwise call for",
-                        "Tends to catastrophize, or assume the very worst might happen",
-                        "Appears physically tense or jittery",
-                        "Avoids the things that make them worry, like completing an assignment, participating in class, or talking to their professors",
-                        "Has a need to for constant reassurance or feedback",
-                        "Wants to be in control"
-                    ],
-                    "secondaryHeader": "Someone experiencing anxiety may also experience:",
-                    "secondarySigns": [
-                        "Racing heart",
-                        "Shortness of breath",
-                        "Trouble falling or staying asleep",
-                        "Changes in appetite",
-                        "Difficulty focusing or remembering"
-                    ]
-                },
-                "dosDonts": [
-                    {
-                        "do": "Validate how the person is feeling",
-                        "doBullets": [
-                            "it sounds like you're really anxious",
-                            "I can tell that you're anxious about _________",
-                            "what specifically is worrying you"
-                        ],
-                        "dont": "Dismiss or try to talk the person out of theirt feelings",
-                        "dontBullets": [
-                            "“There’s nothing to worry about.  Everything is going to be fine”",
-                            "“If you stopped worrying so much, you’d feel better”"
-                        ]
-                    },
-                    {
-                        "do": "Be empathetic",
-                        "doBullets": [
-                            "“I’m sorry that you’re having a hard time right now”",
-                            "Or, say nothing at all.  Allow the person to experience and share their feelings without fear of judgement."
-                        ],
-                        "dont": "Judge",
-                        "dontBullets": [
-                            "“Worrying is a waste of time”",
-                            "“Everyone is anxious nowadays. . . .you have to get over it”"
-                        ]
-                    },
-                    {
-                        "do": "Help the person to help themselves",
-                        "doBullets": [
-                            "“Let’s look at this in the big picture”",
-                            "“What are the things you can control in this situation?”",
-                            "“Why don’t we take a moment to breathe?”",
-                            "“I can connect you with resources to help – the University Counseling Center, tutoring, Financial Aid, an advisor, Housing, Replenish, the Registrar’s Office, etc.",
-                            "“What usually works for you when you’re feeling this anxious?”",
-                            "“Do you have people who can support you when you’re feeling this way?”"
-                        ],
-                        "dont": "Jump in to “fix” the problem for them. . . .avoidance can sometimes make anxiety worse in the long-run",
-                        "dontBullets": [
-                            "“Don’t worry. . . we’ll do whatever you want/need to feel better”",
-                            "“You should go to a therapist, do yoga, mediate, take a bubble bath, etc.”"
-                        ]
-                    }
-                ],
-                "body": {
-                    "header": "Click here if someone is having a panic attack",
-                    "body": "[header Stay calm]\n- Getting anxious or upset yourself will only exacerbate the situation.\n[header Help the student regulate their breathing]\n-  Model regulated breathing by asking them to slowly breathe in and out with you\n-   Encourage them to breathe in for 4 seconds, hold for 4 seconds, breathe out for 4 seconds, hold for 4 seconds and repeat. This is called box breathing.\n[header Encourage them to use grounding techniques]\n-    Have the student sit down in a chair with their feet on the floor.  Offer the student a glass of water, if able.  One of the following grounding techniques may also be helpful:\n-Ask them to describe an object in the room in great detail.  It might be an object that they hold or one that they can see.\n- Gently encourage them identify 5 things that they can see, 4 things that they can feel, 3 things that they can hear, 2 things that they can smell, and 1 thing that they can taste as a way to recenter their attention.\n[header Say these reassuring things]\n- “You can get through this”\n- “Just concentrate on your breathing”- “Stay in the present”\n- “This feeling will not last forever”\n- “You are safe”\n[header Connect with help]\n-    If the student is in need of immediate assistance, connect with available emergency services using the “I Have an Emergency” button below.\n- If the student is not in immediate assistance, below are additional campus resources that may be helpful.\n"
-                }
-            },
-            {
-                "subscript": "may be",
-                "label": "Depressed",
-                "description": "[picture depression]\nMost of us feel down sometimes – it might be when someone has hurt our feelings, or after a breakup or the loss of a loved one.  Usually, those feelings are manageable or go away with time.  Depression, though, is more than just having “the blues” for a few days.  Depression is a persistent feeling of sadness, apathy, or hopelessness, and it isn’t always in response to something bad that’s happened.  Many people feel depressed despite the positive things in their lives.  Depression can impact the way people feel, as well as the way that they think and the things that they do – often in ways that feel outside of their control.\nThere are different forms of depression, such as seasonal depression, dysthymia, postpardum depression, and bipolar disorder.  It is important to remember depression may present differently in different people.",
-                "resourcesRelevant": [
-                    {
-                        "name": "University Counseling Center",
-                        "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit XYZ.  For additional information about how the UCC can support you and your students, visit: gvsu.edu.\n- Crisis services\n- Individual and group counseling\n- Community provider database\n- Online assessments and resources\n- Consultations for faculty and staff"
-                    },
-                    {
-                        "name": "Dean of Students",
-                        "body": "If you are concerned about a student and would like a member of the Division of Student Affairs to check-in with them, you can file a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report].  A Care Report is often the first step in connecting a student to mental health and other resources.  If the student is feeling suicidal or otherwise in crisis, please click the “I Have An Emergency” button.\n- Care report"
-                    },
-                    {
-                        "name": "Disability Support Resources",
-                        "body": "Disability Support Resources provides assistance and accommodations to those with documented disabilities, including some mental health diagnoses.  If a student would like to receive an accommodation because a mental health concern and is not already a registered with DSR, please direct them to the Disability Support Resources office.\n- Accommodation"
-                    },
-                    {
-                        "name": "Tutoring Center",
-                        "body": "If depression is affecting a student’s academic performance or progress, resources are available.  Advisors offer a wealth of support and are knowledgeable about academic policies and procedures.  There are also a number of offices across campus that can help with anything from choosing a major, to preparing for a big interview, to withdrawing from a class."
-                    }
-                ],
-                "videoLink": "https://www.youtube.com/watch?v=Xrtoq3mTYHk",
-                "warningSigns": {
-                    "primaryHeader": "If someone is feeling depressed, you might notice that the person:",
-                    "primarySigns": [
-                        "Seems “down” or “blue”",
-                        "Lacks energy or appears tired, regardless of how much they sleep",
-                        "Isn’t going to class or work regularly",
-                        "Is less interested in things that they used to enjoy, such as spending time with friends",
-                        "Sounds pessimistic or hopeless",
-                        "Has gained or lost a significant amount of weight"
-                    ],
-                    "secondaryHeader": "Someone experiencing depression may also experience:",
-                    "secondarySigns": [
-                        "Changes in their sleep patterns – sleeping more or less than usual",
-                        "Headaches",
-                        "Muscle aches",
-                        "Difficulty concentrating",
-                        "Social isolation"
-                    ]
-                },
-                "dosDonts": [
-                    {
-                        "do": "Validate how the person is feeling",
-                        "doBullets": [
-                            "“It sounds like you’re having a really hard time right now”",
-                            "“It’s okay to feel the way you feel”",
-                            "“I noticed ___________.  I wanted to check in to see how you’re doing.”"
-                        ],
-                        "dont": "Dismiss or try to talk the person out of their feelings",
-                        "dontBullets": [
-                            "“You don’t have any reason to be depressed.  Lots of people have it worse”",
-                            "“Just focus on the positive – think happy thoughts”",
-                            "“Snap out of it”"
-                        ]
-                    },
-                    {
-                        "do": "Be empathetic",
-                        "doBullets": [
-                            "“I’m sorry that you’re feeling this way”",
-                            "“I may not understand exactly what you’re going through, but you’re not alone in this”.”",
-                            "“You are important, and I care”"
-                        ],
-                        "dont": "Judge",
-                        "dontBullets": [
-                            "“Feeling sorry for yourself isn’t going to help”",
-                            "“Just stop it -- you’re in charge of your own feelings”"
-                        ]
-                    },
-                    {
-                        "do": "Help the person to help themselves",
-                        "doBullets": [
-                            "“Let’s look at this in the big picture”",
-                            "“What are the things you can control in this situation?”",
-                            "“Why don’t we take a moment to breathe?”",
-                            "“I can connect you with resources to help – the University Counseling Center, tutoring, Financial Aid, an advisor, Housing, Replenish, the Registrar’s Office, etc.",
-                            "“What usually works for you when you’re feeling this anxious?”",
-                            "“Do you have people who can support you when you’re feeling this way?”"
-                        ],
-                        "dont": "Jump in to “fix” the problem for them. . . .avoidance can sometimes make anxiety worse in the long-run",
-                        "dontBullets": [
-                            "“Everything will be okay, I promise.”",
-                            "“Don’t worry. . . we’ll do whatever you want/need to feel better”",
-                            "“You should go to a therapist, do yoga, mediate, take a bubble bath, etc.”"
-                        ]
-                    }
-                ]
-            },
-            {
-                "subscript": "may be",
-                "label": "Suicidal",
-                "description": "[picture suicide]\nIn the United States, someone attempts suicide every 27 seconds.  While suicide is the 10th leading cause of death nationally, it is the 2nd leading cause of death among college students – and rates are on the rise.  Suicide may be difficult to talk about, but the warning signs should never be ignored.  Whereas most are not trained to treat those who are experiencing suicidality, anyone can help save a life.\nACHA survey data: Over 12% college students have seriously considered in the last 12 months.\n- These rates are higher among those who experience bias and/or injustice.",
-                "resourcesRelevant": [
-                    {
-                        "name": "University Counseling Center",
-                        "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit XYZ.  For additional information about how the UCC can support you and your students, visit: gvsu.edu.\n- Crisis services\n- Individual and group counseling\n- Community provider database\n- Online assessments and resources\n- Consultations for faculty and staff"
-                    },
-                    {
-                        "name": "Dean of Students",
-                        "body": "If you are concerned about a student and would like a member of the Division of Student Affairs to check-in with them, you can file a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report].  A Care Report is often the first step in connecting a student to mental health and other resources.  If the student is feeling suicidal or otherwise in crisis, please click the “I Have An Emergency” button.\n- Care report"
-                    }
-                ],
-                "videoLink": "https://www.youtube.com/watch?v=AecNqFk8glo",
-                "warningSigns": {
-                    "primaryHeader": "If someone is feeling suicidal, you might notice that the person:",
-                    "primarySigns": [
-                        "Seems depressed, or their mood has otherwise changed significantly",
-                        "Expresses feelings of hopelessness",
-                        "Shares thoughts of suicide, such as: “I wish I were dead”, “I can’t go on anymore”, “Everyone would be better off without me here”,“Nobody would care if I weren’t around anymore”,“I will kill myself if I don’t pass this class, my partner breaks up with me, etc.”",
-                        "Is isolating themselves from others",
-                        "Is engaging in concerning behaviors, such as giving away their possessions, harming themselves,     acquiring weapons, etc.",
-                        "Has recently experienced a traumatic life event, such as a breakup, failing a class, or the loss of a loved one"
-                    ],
-                    "secondaryHeader": "",
-                    "secondarySigns": []
-                },
-                "dosDonts": [
-                    {
-                        "do": "ALWAYS ASK someone directly if you are concerned that they may be suicidal.",
-                        "doBullets": [
-                            "“Are you thinking of killing yourself?”",
-                            "“Has it gotten so bad that you’ve considered suicide?”",
-                            "I’ve noticed _________.  Sometimes when that happens, people wish that they were dead.  Have you been feeling that way?”",
-                            "If you are unable or too uncomfortable to ask someone if they are feeling suicidal, find someone else who can.  A student’s life may depend on it."
-                        ],
-                        "dont": "Ignore warning signs of suicide or assume that someone else will intervene.",
-                        "dontBullets": []
-                    },
-                    {
-                        "do": "Be empathetic",
-                        "doBullets": [
-                            "“Thank you for reaching out/talking to me”",
-                            "“I’m sorry that you’re hurting”"
-                        ],
-                        "dont": "Judge",
-                        "dontBullets": [
-                            "“Your life’s not that bad. . . .a lot of people have it far worse than you do”",
-                            "“You don’t really mean that”",
-                            "“Everyone will be mad/upset at you if you kill yourself”",
-                            "“Suicide is selfish”"
-                        ]
-                    },
-                    {
-                        "do": "Instill hope. . .hope saves lives",
-                        "doBullets": [
-                            "“I know it may not feel like it right now, but this can get better”",
-                            "“I care about you, and I want you to live”",
-                            "“I know how to find someone who can help”"
-                        ],
-                        "dont": "Give advice",
-                        "dontBullets": [
-                            "“There’s nothing worth dying for”",
-                            "“Just try to forget about it”",
-                            "“You should go to therapy, mediate, exercise, buy a sun lamp, etc.”"
-                        ]
-                    },
-                    {
-                        "do": "Connect the person with resources",
-                        "doBullets": [
-                            "If someone says that they are suicidal, or you have reason to suspect that they may harm themselves, do not wait to intervene.  Help is available 24-hours a day.  Connect them with available emergency services using the “I Have an Emergency” button below.",
-                            "If the student is not feeling suicidal but is struggling with their mental health or another concern, additional campus resources that may be helpful are provided below."
-                        ],
-                        "dont": "Wait to get help",
-                        "dontBullets": []
-                    }
-                ]
-            },
-            {
-                "subscript": "is / may",
-                "label": "Threatening/Harm Others",
-                "description": "Campus safety has moved into the foreground at academic institutions across the country.  Recent events and the constant streaming of tragedies from around globe have heightened fears for many.  While it is impossible to accurately predict who might act on concerning behaviors, research has found some commonalities among those are threatening or might otherwise cause harm to others.  It is important to note that alone, or even in combination, many of the warning signs below are not directly related to risk.  Use your judgement, reach out for help when needed, and err on the side of your safety and the safety of the campus community.",
-                "resourcesRelevant": [
-                    {
-                        "name": "University Counseling Center",
-                        "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit XYZ.  For additional information about how the UCC can support you and your students, visit:\n- Crisis services\n- Individual and group counseling\n- Community provider database\n- Online assessments and resources\n- Consultations for faculty and staff"
-                    },
-                    {
-                        "name": "Dean of Students",
-                        "body": "If you are concerned about a student and would like a member of the Division of Student Affairs to check-in with them, you can file a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report].  A Care Report is often the first step in connecting a student to mental health and other resources.  If a student is being threatening or is otherwise a risk to others, please click the “I Have An Emergency” button"
-                    },
-                    {
-                        "name": "GVPD non-emergency",
-                        "body": "The Grand Valley Police Department and other local law enforcement authorities are available to assist if you are feeling threatened or are concerned for your safety or the safety of the campus community.\n- GVPD\n- Pew Campus Security\n- 911"
-                    }
-                ],
-                "videoLink": "",
-                "warningSigns": {
-                    "primaryHeader": "If someone is behaving in a threatening way or at risk of harming others, you might notice that the person:",
-                    "primarySigns": [
-                        "Expresses feelings of anger, rage, or persecution toward a person, group, or society in general",
-                        "Engages in concerning behaviors, such as acquiring weapons, breaking laws, or taking risks with their lives or the lives of others",
-                        "Threatens violence or shares thoughts of violence against others",
-                        "Is withdrawn or socially isolated",
-                        "Seems depressed, or their mood has otherwise changed significantly",
-                        "Yells at or otherwise attempts to intimidate others",
-                        "Have a history of violence against people or animals",
-                        "Have a history of conflict with authority"
-                    ],
-                    "secondaryHeader": "The person may also",
-                    "secondarySigns": [
-                        "Have a history of violence against people or animals",
-                        "Have a history of conflict with authority",
-                        "Abuse substances"
-                    ]
-                },
-                "dosDonts": [
-                    {
-                        "do": "If the person becomes threatening or does not de-escalate, immediately remove yourself from the situation and contact GVPD or 911.",
-                        "doBullets": [
-                            "If the person de-escalates, refer to the following DOs and DONTs."
-                        ],
-                        "dont": "Interrupt during peak anger",
-                        "dontBullets": [
-                            "Peak anger usually lasts 20-30 seconds"
-                        ]
-                    },
-                    {
-                        "do": "Allow the student to tell you what they are feeling, even if you disagree or are concerned by it",
-                        "doBullets": [
-                            "“I hear that you are feeling ________”",
-                            "“I’m sorry that you feel ________”",
-                            "Or, say nothing at all.  Allow the person to experience and share their feelings without fear of judgement."
-                        ],
-                        "dont": "Ignore or minimize how the person is feeling",
-                        "dontBullets": [
-                            "“Don’t say that. . . .you’ll get in trouble”",
-                            "“Oh, you don’t mean that”",
-                            "“Whatever you’re upset about is not that big of a deal”"
-                        ]
-                    },
-                    {
-                        "do": "Be firm and set limits",
-                        "doBullets": [
-                            "“I will be willing to speak with you as soon as you lower your voice”",
-                            "“If you continue to ________, I will have to ask you to leave the room”",
-                            "“I am feeling uncomfortable with ________ and am going to have to ask you not to do that again”",
-                            "“I am unable to do ________.  If you would like to discuss this further, you can contact ________"
-                        ],
-                        "dont": "Blame, ridicule, or use sarcasm",
-                        "dontBullets": [
-                            "“It’s your own fault this happened”",
-                            "Maybe if you had done ________, things would be different”",
-                            "“You’re crazy”"
-                        ]
-                    },
-                    {
-                        "do": "Focus on resolving the situation",
-                        "doBullets": [
-                            "“Is there something that I can do to be helpful?”",
-                            "“I can connect you with resources to help – the University Counseling Center, tutoring, Financial Aid, an advisor, Housing, Replenish, the Registrar’s Office, etc.",
-                            "“What usually works for you when you’re feeling this upset?”"
-                        ],
-                        "dont": "Argue",
-                        "dontBullets": [
-                            "Remain calm. Raising your voice or arguing back can further escalate an already difficult situation"
-                        ]
-                    },
-                    {
-                        "do": "Act",
-                        "doBullets": [
-                            "File a Care Report if there is no immediate danger and you would like a member of the Division of Student Affairs staff to check-in with the person.",
-                            "Remove yourself from the situation and contact GVPD or 911 immediately if you are concerned for you safety or the safety of others at any time."
-                        ],
-                        "dont": "Wait to get help",
-                        "dontBullets": []
-                    }
-                ]
-            },
-            {
-                "subscript": "is exhibiting",
-                "label": "Unusual/Bizarre Behavior",
-                "description": "[picture psychosis]\nInteracting with someone who speaks or behaves in a way that is unusual can feel frightening. Contrary to what is portrayed in movies and the media, those who experience disruptions to reality are not inherently more dangerous than others. The fact is that disorders that alter the way people think and experience the world are more common than most believe. These disorders often emerge in early adulthood. For some, that means while they are in college.\nThere are many reasons that someone may be exhibiting bizarre or unusual behavior, including a psychotic disorder, a psychotic episode related to another mental health disorder, recreational use or drugs or alcohol, an unintended side-effect of a prescribed medication, nutritional deficits, dehydration, and lack of sleep. It is important to remember that symptoms may present differently in different people.",
-                "resourcesRelevant": [
-                    {
-                        "name": "University Counseling Center",
-                        "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit XYZ.  For additional information about how the UCC can support you and your students, visit: gvsu.edu.\n- Crisis services\n- Individual and group counseling\n- Community provider database\n- Online assessments and resources\n- Consultations for faculty and staff"
-                    },
-                    {
-                        "name": "Dean of Students",
-                        "body": "If you are concerned about a student and would like a member of the Division of Student Affairs to check-in with them, you can file a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report].  A Care Report is often the first step in connecting a student to mental health and other resources.  If a student is in any immediate danger or you are afraid to leave them alone, please click the “I Have an Emergency” button.\n- [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report]"
-                    },
-                    {
-                        "name": "GVPD non-emergency",
-                        "body": "The Grand Valley Police Department and other local law enforcement authorities are available to assist if you concerned for someone’s safety or ability to make safe decisions on their own behalf.\n- GVPD\n- Pew Campus Security\n- 911"
-                    }
-                ],
-                "videoLink": "https://www.youtube.com/watch?v=u3FES9W8P04&feature=emb_title",
-                "warningSigns": {
-                    "primaryHeader": "If someone is experiencing a psychotic episode or their thought processes are otherwise impaired, you might notice that the person:",
-                    "primarySigns": [
-                        "Seems confused or disoriented",
-                        "Is disorganized in their speech – what they are saying may not make sense, or may be difficult to follow",
-                        "Appears to be seeing, hearing, or experiencing things that others around them are not",
-                        "Believes something that you have reason to suspect is untrue",
-                        "Has either heightened emotions or appears to be void of emotion",
-                        "Is not maintaining hygiene or self-care"
-                    ],
-                    "secondaryHeader": "The person may also:",
-                    "secondarySigns": [
-                        "Be withdrawing from family and friends",
-                        "Struggling to perform the activities of daily living, such as going to work or school",
-                        "Be sleeping far more or far less than usual"
-                    ]
-                },
-                "dosDonts": [
-                    {
-                        "do": "Be gentle and calm",
-                        "doBullets": [
-                            "Speak in a quiet/low voice",
-                            "Use short, simple sentences",
-                            "Repeat yourself if necessary"
-                        ],
-                        "dont": "Panic",
-                        "dontBullets": [
-                            "Raising your voice or having a strong emotional response may only escalate what the person is experiencing"
-                        ]
-                    },
-                    {
-                        "do": "Empathize",
-                        "doBullets": [
-                            "“I don’t know what you are experiencing.  Can you describe it to me?",
-                            "“I can only imagine how difficult this must be for you.”",
-                            "“I care about you and will do what I can to help”"
-                        ],
-                        "dont": "Judge or criticize",
-                        "dontBullets": [
-                            "“You’re crazy” or “You’re psycho”",
-                            "“What is wrong with you?”",
-                            "“That’s not true. . . .you’re just telling yourself that”"
-                        ]
-                    },
-                    {
-                        "do": "Focus on feelings rather than facts, if their thoughts seem disordered or disorganized",
-                        "doBullets": [
-                            "“How are you feeling right now?”",
-                            "“You must be feeling very _______ right now”",
-                            "“I can see why you feel that way that you do”"
-                        ],
-                        "dont": "Try to correct the person’s thinking or convince them to think differently",
-                        "dontBullets": [
-                            "“Snap out of it”",
-                            "“What you’re saying doesn’t make any sense!”",
-                            " “No, that thing is not true, and here are the reasons why. . . .”"
-                        ]
-                    },
-                    {
-                        "do": "Connect the student with someone who can help",
-                        "doBullets": [
-                            "If you believe that a student may be decompensating or have seen concerning changes in their behavior over time, file a Care Report.",
-                            "Refer the student to the University Counseling Center.  Same-day crisis appointments are available, and faculty and staff are welcome to walk students to the office and share their concerns.  Faculty and staff may also call to consult with a member of the UCC staff over the phone.",
-                            "If you are concerned that the student is unable to make decisions or their own behalf or may be a danger to themselves or others, please click the “I Have an Emergency” button below."
-                        ],
-                        "dont": "Ignore troubling behavior or symptoms",
-                        "dontBullets": [
-                            "Bizarre or otherwise unusual behavior can be the result of a serious medical or mental health condition.  The sooner that it is recognized and treated, the better for the student."
-                        ]
-                    }
-                ]
-            }
+  "home": {
+    "tiles": [
+      {
+        "label": "I have a student I am concerned about",
+        "link": "/guide"
+      },
+      {
+        "label": "FAQ",
+        "link": "/faq"
+      },
+      {
+        "label": "I have an emergency",
+        "link": ""
+      },
+      {
+        "label": "Classroom Techniques",
+        "link": "/techniques"
+      },
+      {
+        "label": "Campus Resources",
+        "link": "/resources"
+      }
+    ]
+  },
+  "guide": {
+    "tiles": [
+      {
+        "subscript": "is feeling",
+        "label": "Anxious",
+        "description": "[picture anxiety]\nLet’s face it: anxiety doesn’t feel good.  But, anxiety IS normal.  Feeling anxious is an expectable and healthy (albeit unpleasant) response to life’s stressors. . .and can even be helpful sometimes.  If someone is anxious about a big test, they might study more.  If someone is anxious that they’ve done something wrong, they might go out of their way to make amends.  If someone is anxious about getting hurt, they might take extra precautions to protect themselves.  For some, though, anxiety can go from helpful to harmful.  Generally speaking, anxiety that is disproportionate to the situation, does not go away after the threat is gone, or makes it hard to fully engage in daily activities may be a sign of an anxiety disorder.\nThere are many anxiety disorders, including generalized anxiety, social anxiety, test anxiety, and phobias.  It is important to remember that anxiety may present differently in different people.",
+        "resourcesRelevant": [
+          {
+            "name": "University Counseling Center",
+            "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit the [link /faq, placeholder: FAQ button]."
+          },
+          {
+            "name": "Dean of Students",
+            "body": "If you have reached out to the student with support and resources and the student is in need of additional assistance, you can file a [link https://www.gvsu.edu/care/, placeholder: CARE Report].  A member of the Division of Student Affairs will review the report and follow-up as appropriate . If the student is feeling suicidal or otherwise in crisis, please click the “I Have An Emergency” button. "
+          },
+          {
+            "name": "Disability Support Resources",
+            "body": "Disability Support Resources provides assistance and accommodations to those with documented disabilities, including some mental health diagnoses.  If a student would like to receive an accommodation because of a mental health concern and is not already a registered with DSR, please direct them to the Disability Support Resources office."
+          },
+          {
+            "name": "Academic/Career Resources",
+            "body": "If a student is anxious about their academic performance or progress, resources are available.  Advisors offer a wealth of support and are knowledgeable about academic policies and procedures.  There are also a number of offices across campus that can help with anything from choosing a major, to preparing for a big interview, to withdrawing from a class.\n [link https://www.gvsu.edu/advising/advising-centers-70.htm, placeholder: Advising Centers]\n [link https://www.gvsu.edu/careers/, placeholder: Career Center]\n [link https://www.gvsu.edu/tc/, placeholder: Tutoring]\n [link https://www.gvsu.edu/registrar/, placeholder: Registrar’s Office]"
+          }
         ],
-        "otherwiseOfConcern": {
-            "header": "Otherwise of concern",
-            "subscript": "who is",
-            "tiles": [
-                {
-                    "header": "I have a student who is NOT COMING TO CLASS",
-                    "body": "A student may not be attending class for a variety of reasons – they may be ill, attending to a personal emergency, in the process of withdrawal, or otherwise unable.  If you are concerned about a student who is not attending class, you can do two things:\n- Reach out to the student personally.  Express your concern, share available resources, and work with the student, if appropriate, to transition back to class.\n- File a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report].  The Student Support Manager will reach out to the student to provide support and resources."
-                },
-                {
-                    "header": "I have a student who has shared that they have a DISABILITY",
-                    "body": "If a student is requesting accommodations for a disability, they will need a memorandum, or “memo”, from the Disability Support Resources office.  While faculty and staff have the right to address individual student concerns as they believe appropriate, official accommodations are determined by DSR and outlined in the memo that students receive.  In order to receive a memo, students must self-disclose their disability and provide required documentation.\nIf a student says that they have a disability but is not registered with Disability Support Resources, you can direct them to the [link https://www.gvsu.edu/dsr/, placeholder: DSR website] for additional information.\nStudents may also call [phone 616-331-2490] to schedule an appointment with a DSR advisor."
-                },
-                {
-                    "header": "I have a student who I’m concerned is USING ALCOHOL OR DRUGS",
-                    "body": "The University offers resources to help students who are struggling with alcohol or drug use.  Students may be referred to Alcohol and Other Drugs Campus Education Services, or ACES, for information, support, and treatment.  Through ACES, the University Counseling Center provides prevention and outreach programming, as well as individual and group counseling for substance-related concerns.  Meetings are also available on-campus for students and community members in active recovery.  To learn more about ACES, students can visit the [link https://www.gvsu.edu/aces, placeholder: Aces Website]\n or call [phone 616-331-2537].\nIf you are concerned that a student is under the influence of alcohol or drugs in class or a meeting, please call GVPD to share your observations.  Signs may include slurred speech, difficulty with balance, dilated pupils, or loss of consciousness, among others.  Even if a student is not exhibiting these symptoms, a call to GVPD is still warranted if you are concerned that they are intoxicated."
-                },
-                {
-                    "header": "I have a student who has experienced SEXUAL ASSAULT/PARTNER VIOLENCE",
-                    "body": "Services are available to students who have experienced sexual assault, stalking, or intimate partner violence.  Students may be referred to the Victim Advocate for support and resources.For more information about victim advocacy visit the [link https://www.gvsu.edu/cwge/, placeholder: Center for Women and Gender Equity].\n  Students can schedule an appointment with the Victim Advocate by calling [phone 616-331-2748].\n The University Counseling Center provides individual and group counseling specific to those who have survived sexual assault.  Additional information is available on the [link https://www.gvsu.edu/counsel/community]\n or by calling [phone 616-331-3266].\n If a student reveals a recent assault and is in crisis, please click the “I Have an Emergency” button below. For more information about Title IX reporting requirements for faculty and staff, please visit the Office for [link https://www.gvsu.edu/titleix/, placeholder: Title IX and Institutional Equity website].\nYou may be required to report what was disclosed as a University employee. Additional tips if a student discloses a sexual assault or other trauma:\n- Thank them for trusting you\n- Allow them to share without prodding or asking unnecessary questions\n- Avoid giving advice or saying things like, “That wouldn’t have happened if. . . .” or “You should have. . . ”\n- Tell them that you are sorry about what happened to them\n- Offer your support and resources to help them cope"
-                }
-            ]
-        }
-    },
-    "resource": {
-        "tiles": [
-            {
-                "department": "University Counseling Center",
-                "link": "https://www.gvsu.edu/counsel",
-                "email": "",
-                "phone": "616-331-3266",
-                "picture": ""
-            },
-            {
-                "department": "Dean of Students",
-                "link": "https://www.gvsu.edu/dos",
-                "phone": "616-331-3585",
-                "email": "dso@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "Student Ombuds",
-                "link": "https://www.gvsu.edu/dos",
-                "phone": "616-331-2491",
-                "email": "garrettt@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "Tutoring Center",
-                "link": "https://www.gvsu.edu/tc/",
-                "phone": "616-331-3451",
-                "email": "tutoring@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "DSR",
-                "link": "https://www.gvsu.edu/dsr/",
-                "phone": "616-331-2490",
-                "email": "dsrgvsu@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "GVSU HR Contact for ENCOMPASS",
-                "link": "https://www.gvsu.edu/hro/benefitswellness/meet-the-work-life-consultant-476.htm",
-                "phone": "616-331-2215",
-                "email": "salazael@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "ENCOMPASS",
-                "link": "https://www.mylifeexpert.com/login",
-                "phone": "1-800-788-8630",
-                "email": "",
-                "picture": ""
-            },
-            {
-                "department": "Housing",
-                "link": "https://www.gvsu.edu/housing/",
-                "phone": "616-331-2120",
-                "email": "housing@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "GVPD non-emergency",
-                "link": "https://www.gvsu.edu/dps/",
-                "phone": "616-331-3255",
-                "email": "",
-                "picture": ""
-            },
-            {
-                "department": "Health Center",
-                "link": "https://www.gvsu.edu/campushealth/",
-                "phone": "616-252-6030",
-                "email": "",
-                "picture": ""
-            },
-            {
-                "department": "Center for Women and Gender Equity",
-                "link": "https://www.gvsu.edu/cwge/",
-                "phone": "616-331-2748",
-                "email": "cwge@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "LGBT Center",
-                "link": "https://www.gvsu.edu/lgbtrc/",
-                "phone": "616-331-2530",
-                "email": "lgbtcenter@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "Financial Aid",
-                "link": "https://www.gvsu.edu/financialaid/",
-                "phone": "616-331-3234",
-                "email": "finaid@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "Disability Support Resources",
-                "link": "https://www.gvsu.edu/dsr/",
-                "phone": "616-331-2490",
-                "email": "dsrgvsu@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "Replenish",
-                "link": "https://www.gvsu.edu/replenish/",
-                "phone": "616-331-2748",
-                "email": "",
-                "picture": ""
-            },
-            {
-                "department": "Victim Advocate",
-                "link": "https://www.gvsu.edu/vro/what-is-a-victim-advocate-55.htm",
-                "phone": "616-331-2748",
-                "email": "",
-                "picture": ""
-            },
-            {
-                "department": "Registrars Office",
-                "link": "https://www.gvsu.edu/registrar/",
-                "phone": "616-331-3327",
-                "email": "regdept@gvsu.edu",
-                "picture": ""
-            },
-            {
-                "department": "ACES- Alcohol and Other Drugs Campus Education Services",
-                "link": "https://www.gvsu.edu/aces",
-                "phone": "616-331-2537",
-                "email": "aces@gvsu.edu",
-                "picture": ""
-            }
-        ]
-    },
-    "faq": {
-        "tiles": [
-            {
-                "question": "If a student shares something in confidence, is it ok for me to tell someone else if I am concerned?",
-                "answer": "Because they interact with students regularly, faculty and staff are often the first to notice concerning changes in students’ mood or behavior. It is appropriate to consult with the University Counseling Center about student mental health concerns that arise, especially when those concerns involve student safety. This is not a breach of student confidentiality. Our clinical staff can provide you with information to address the situation on your own, or can instigate important next steps to ensure student well-being."
-            },
-            {
-                "question": "I want to make sure the student I reffered is safe/got help. Is this possible?",
-                "answer": "As licensed healthcare professionals, the University Counseling Center staff cannot legally share whether a student attended a session or received mental health services. If appropriate to your role and/or the nature of your relationship with the student, we encourage you to check in with them after making a referral. Consider asking:\n- How have things been going since we last talked?\n- Did you have a chance to talk to anyone yet?"
-            },
-            {
-                "question": "What if I'm worried about someone who is not a student (myself, a faculty or staff member, etc.)?",
-                "answer": "Although the University Counseling Center only provides treatment to currently enrolled students, there are many resources available to others who may be struggling with their mental health. For you and other members of the faculty/staff: \n- If there is an immediate threat to self or others, call 911 or GVPD: [phone 616-331-3255]\n- The Human Resources Office offers free mental health services to University employees through Encompass [link https://www.gvsu.edu/hro/]\n- Faculty and staff can access the University Counseling Center community provider database for assistance in identifying a clinician who meets their needs [link https://www.gvsu.edu/counsel/community]\n For family members or loved ones:\n- If there is an immediate threat to self or others, call 911.\n- Utilize the University Counseling Center community provider database [link https://www.gvsu.edu/counsel/community]\n- for West Michigan mental health resources visit Psychology Today [link https://www.psychologytoday.com]"
-            },
-            {
-                "question": "What is a Care Report and when should I file one?",
-                "answer": "While attending GVSU, students may experience a variety of concerns, including academic distress, financial insecurity, inability to meet basic needs, physical illness, mental health symptoms, bias incidents, housing instability, relationship difficulties, and disruptive or disturbing behavior, among others. The CARE Team (Coordination, Assistance, Response, and Education) is comprised of professional staff members who support all students through challenges they may experience during their time at GVSU. Please complete a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report] if you are concerned about a student or know a student who needs support"
-            },
-            {
-                "question": "What mental health resources/services does UCC offer?",
-                "answer": "[link https://www.gvsu.edu/counsel, placeholder: The University Counseling Center] offers a variety of services to suit students’ diverse mental health needs. Services are provided at no cost to currently registered GVSU students and include:\n- Short-term individual therapy\n- Unlimited group therapy, including general therapy groups, symptom management groups, and support groups\n- Substance abuse prevention and treatment\n- Community referral \n- Mental health prevention and education\n- Online self-help tools and resources\n- Consultation for concerned students, faculty, and staff"
-            },
-            {
-                "question": "How long does it take for a student to be seen at the University Counseling Center?",
-                "answer": "All first-time student appointments are scheduled within two business days. These screening appointments assess student concerns, identify risk, and connect students with appropriate services. After their initial appointment, students who elect to continue counseling through the University Counseling Center will be scheduled for an intake.  Intakes are generally scheduled no more than two weeks out, though those with special requests may wait longer.  If students need to be seen more quickly, a counselor will assist them in finding a provider in the community who may better meet their needs."
-            },
-            {
-                "question": "A student has submitted an assignment/sent me an email with concerning content, and I am reading it from my home/office after-hours:",
-                "answer": "If you receive concerning written communication from a student, consider the following:\n1) Thank the student for reaching out and trusting you enough to share their thoughts/feelings\n2) Offer support, such as:\n- If appropriate, a meeting or check-in to discuss the student’s concerns\n- Referral to the University Counseling Center for a same-day crisis appointment or screening appointment by calling [phone 616-331-3266] during business hours\n- Reminder to contact 911 or go to a local emergency room if in crisis\n3)  File a [link https://gvsu-advocate.symplicity.com/care_report/index.php/pid100170?, placeholder: CARE Report] with the Dean of Students Office.  Your report will enable the Care Team to assess risk and take appropriate action.\n4)  Consult with a member of the UCC staff by calling [phone 616-331-3266].\nIf you are concerned at any time for the student’s safety or the safety of others, contact 911 immediately. A police officer can perform a welfare check and connect the student with appropriate resources."
-            }
-        ]
-    },
-    "emergency": {
-        "description-header": "A mental health concern becomes a mental health emergency when someone:",
-        "description-bullets": "- Is at risk of harming themselves\n- Is at risk of harming someone else\n- Appears out-of-touch with reality or unable to make decisions on their own behalf\n- Has just experienced a trauma (directly after a sexual assault, physical assault, act of terror, etc.)",
-        "description-footer": "In situations like these, your actions are crucial to the well-being of the student and the larger campus community. \n Students experiencing a mental health concern but not actively in crisis may be referred to the University Counseling Center for services. Please visit the “I Have a Student Who. . . .” page for additional information and resources.",
-        "concern-header": "If you are concerned that a student:",
-        "concern-bullets": "- May not be safe\n- May harm someone else\n- Is behaving unusually or appears unable to make decisions on their own behalf\n- Has experienced a recent trauma",
-        "businessHours": {
-            "title": "During business hours:",
-            "body":  "- If safe to do so, walk the student to the University Counseling Center for a crisis appointment with a counselor."
+        "videoLink": "vtUdHOx494E",
+        "warningSigns": {
+          "primaryHeader": "If someone is feeling anxious, you might notice that the person:",
+          "primarySigns": [
+            "Is worrying more than the situation might otherwise call for",
+            "Tends to catastrophize, or assume the very worst might happen",
+            "Appears physically tense or jittery",
+            "Avoids the things that make them worry, like completing an assignment, participating in class, or talking to their professors",
+            "Has an overwhelming need for reassurance or feedback",
+            "Wants to be in control"
+          ],
+          "secondaryHeader": "Someone experiencing anxiety may also experience:",
+          "secondarySigns": [
+            "Racing heart",
+            "Shortness of breath",
+            "Trouble falling or staying asleep",
+            "Changes in appetite",
+            "Difficulty focusing or remembering"
+          ]
         },
-        "afterHours": {
-            "title": "After business hours:",
-            "body": "- If there is any immediate risk to the student’s well-being, call 911 immediately\n- If the student lives on campus, call GVPD at [phone 616-331-3266] to initiate a wellness check and/or connect the student with the on-call counselor"
+        "dosDonts": [
+          {
+            "do": "Validate how the person is feeling",
+            "doBullets": [
+              "It sounds like you're really anxious.",
+              "I can tell that you're anxious about _________.",
+              "What specifically is worrying you?"
+            ],
+            "dont": "Dismiss or try to talk the person out of their feelings",
+            "dontBullets": [
+              "There’s nothing to worry about.  Everything is going to be fine",
+              "If you stopped worrying so much, you’d feel better"
+            ]
+          },
+          {
+            "do": "Be empathetic",
+            "doBullets": [
+              "I’m sorry that you’re having a hard time right now.",
+              "Or, say nothing at all.  Allow the person to experience and share their feelings without fear of judgement."
+            ],
+            "dont": "Judge",
+            "dontBullets": [
+              "Worrying is a waste of time.",
+              "Everyone is anxious nowadays. . .you have to get over it."
+            ]
+          },
+          {
+            "do": "Help the person to help themselves",
+            "doBullets": [
+              "Let’s look at this in the big picture.",
+              "What are the things you can control in this situation?",
+              "Why don’t we take a moment to breathe?",
+              "I can connect you with resources to help – the University Counseling Center, tutoring, Financial Aid, an advisor, Housing, Replenish, the Registrar’s Office, etc.",
+              "What usually works for you when you’re feeling this anxious?",
+              "Do you have people who can support you when you’re feeling this way?"
+            ],
+            "dont": "Jump in to “fix” the problem for them. . .avoidance can sometimes make anxiety worse in the long-run.",
+            "dontBullets": [
+              "Don’t worry. . . we’ll do whatever you want/need to feel better.",
+              "You should go to a therapist, do yoga, mediate, take a bubble bath, etc."
+            ]
+          }
+        ],
+        "body": {
+          "header": "Click here if someone is having a panic attack",
+          "body": "[header Stay calm]\n- Getting anxious or upset yourself will only exacerbate the situation.\n[header Help the student regulate their breathing]\n-  Model regulated breathing by asking them to slowly breathe in and out with you\n-   Encourage them to breathe in for 4 seconds, hold for 4 seconds, breathe out for 4 seconds, hold for 4 seconds and repeat. This is called box breathing.\n[header Encourage them to use grounding techniques]\n-    Have the student sit down in a chair with their feet on the floor.  Offer the student a glass of water, if able.  One of the following grounding techniques may also be helpful:\n-Ask them to describe an object in the room in great detail.  It might be an object that they hold or one that they can see.\n- Gently encourage them to identify 5 things that they can see, 4 things that they can feel, 3 things that they can hear, 2 things that they can smell, and 1 thing that they can taste as a way to recenter their attention.\n[header Say these reassuring things]\n- You can get through this\n- Just concentrate on your breathing\n- Stay in the present\n- This feeling will not last forever\n- You are safe\n[header Connect with help]\n-    If the student is in need of immediate assistance, connect with available emergency services using the “I Have an Emergency” button below.\n- If the student is not in need of immediate assistance, below are additional campus resources that may be helpful.\n"
         }
-    },
-    "classRoomTechniques": {
-        "header": "As a higher education professional, you know that some stress is inevitable. In addition to academic stressors, many students experience financial insecurity, family distress, relationship issues, social biases, and physical and mental health conditions, among others.  It’s important to remember that while some stress is to be expected, stress that builds up over time can lead to more serious mental health concerns. The good news is that you can help students, right from your classroom. Consider incorporating the following:",
-        "techniques": [
-            {
-                "header": "Mindfulness Minute",
-                "body": "Mindfulness has been proven to reduce stress. Starting your class with a short 2:00 minute video can help students decrease stress and prepare for learning.\n[video: https://www.youtube.com/watch?v=cEqZthCaMpo&feature=emb_title]\n In addition, you can link to longer videos on blackboard or in your syllabus and encourage students to utilize them.\n[video: https://www.youtube.com/watch?v=sG7DBA-mgFY&feature=emb_title]\n[video: https://www.youtube.com/watch?v=QS2yDmWk0vs&feature=emb_title]"
-            },
-            {
-                "header": "Syllabus Disclaimer",
-                "body": "A brief statement in your syllabus can show students that you are supportive of their mental health, while also introducing them to services and reducing stigma around seeking treatment. Below is an example of a statement to include in your syllabus:\n“Mental health concerns, including overwhelming stress, excessive worry, difficulty participating in daily activities, and changes in mood, appetite, or sleep patterns, can interfere with your academic performance. It is important to know that Grand Valley State University values your health and wellness and provides services to support your mental health on campus. If you are struggling with your mental health or are concerned for another member of our campus community, I urge you to reach out to the University Counseling Center for resources and available services\nUniversity Counseling Center:\n[phone 616-331-3266]\n[link https://www.gvsu.edu/counsel/]"
-            },
-            {
-                "header": "Brain Breaks",
-                "body": "When presented with new material and complicated topics, people retain information best when focused and calm.  Consider using brain breaks and focused-attention practices to positively impact students’ emotional wellness and readiness to learn.\n- Open up a space on blackboard where students can share funny videos, memes, pictures, or jokes. Then utilize this material to lighten the mood, and refocus attention in your class.\n- Allow time and space for standing up and stretching in the middle of class.\n- Utilize a deep breathing exercise at the beginning or middle of class, or before a big test [video: https://www.youtube.com/watch?v=cEqZthCaMpo&t=1s]"
-            },
-            {
-                "header": "Mental Health Reminders",
-                "body": "Supporting students’ emotional well-being is campus-wide responsibility. By openly talking about mental health, you will play an important role in creating a healthier and safer campus community. This can be as simple as using phrases like: “Midterms can be stressful. As you prepare, be sure to care of your yourself.  Take breaks, eat well, and stay connected with people you care about. And remember, there are services on campus that can help if you need it.”\n“Let’s take a few moments to “check in” with ourselves. This is a chance for each of us to recognize how we’re feeling and acknowledge any worries or concerns that we have. How are you feeling? What usually helps when you’re stressed/anxious/overwhelmed? And who are your supports? Remember there are mental health services available to you if you’re struggling to manage.”"
-            },
-            {
-                "header": "Self Care",
-                "body": "If you have a particularly stressful or difficult lesson planned, encourage students to take part in self-care prior to attending class\n- Exercise: Exercise is important to both physical and mental health, boosting mood and reducing stress and anxiety.  Not everyone can make it to the gym, but you can encourage student to be active in a way that works for them, such as using online workout videos or exploring the outdoors by foot, wheelchair, bike, or whichever way works best for them! * Link to Rec and Wellness here?\n- Sleep: Remind students that sleep is vital to their physical and mental health.  Encourage students to create (and stick to!) a sleep routine.  Sometimes all-nighters can do more harm than good when it comes to retaining information and performing important tasks.  *  Link to a quality sleep hygiene page here?\n- Nutrition: Healthy eating can keep our minds working and alert. There are options on campus to help students eat right for self-care. Remind students to fuel-up with healthy foods before a big test or when they have a long day ahead. Those facing food insecurity can use the on-campus food pantry, Replenish, as well! * Link to Campus Dining and Replenish\n- Boundaries: A lot of students struggle to say “no” to family, friends, and opportunities for fun in college. Learning to say no can be difficult, but it is important for students to protect their time and energy. Empower students to say no for self-care!"
-            }
+      },
+      {
+        "subscript": "may be",
+        "label": "Depressed",
+        "description": "[picture depression]\nMost of us feel down sometimes – it might be when someone has hurt our feelings, or after a breakup or the loss of a loved one.  Usually, those feelings are manageable or go away with time.  Depression, though, is more than just having “the blues” for a few days.  Depression is a persistent feeling of sadness, apathy, or hopelessness, and it isn’t always in response to something bad that’s happened.  Many people feel depressed despite the positive things in their lives.  Depression can impact the way people feel, as well as the way that they think and the things that they do – often in ways that feel outside of their control.\nThere are different forms of depression, such as seasonal depression, dysthymia, postpardum depression, and bipolar disorder.  It is important to remember depression may present differently in different people.",
+        "resourcesRelevant": [
+          {
+            "name": "University Counseling Center",
+            "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit the [link /faq, placeholder: FAQ button].  "
+          },
+          {
+            "name": "Dean of Students",
+            "body": "If you have reached out to the student with support and resources and the student is in need of additional assistance, you can file a [link https://www.gvsu.edu/care/, placeholder: CARE Report].  A member of the Division of Student Affairs will review the report and follow-up as appropriate.  If the student is feeling suicidal or otherwise in crisis, please click the “I Have An Emergency” button."
+          },
+          {
+            "name": "Disability Support Resources",
+            "body": "Disability Support Resources provides assistance and accommodations to those with documented disabilities, including some mental health diagnoses.  If a student would like to receive an accommodation because of a mental health concern and is not already a registered with DSR, please direct them to the Disability Support Resources office."
+          },
+          {
+            "name": "Academic/Career Resources",
+            "body": "If a student is anxious about their academic performance or progress, resources are available.  Advisors offer a wealth of support and are knowledgeable about academic policies and procedures.  There are also a number of offices across campus that can help with anything from choosing a major, to preparing for a big interview, to withdrawing from a class."
+          }
+
+        ],
+        "videoLink": "Xrtoq3mTYHk",
+        "warningSigns": {
+          "primaryHeader": "If someone is feeling depressed, you might notice that the person:",
+          "primarySigns": [
+            "Seems “down” or “blue”",
+            "Lacks energy or appears tired, regardless of how much they sleep",
+            "Isn’t going to class or work regularly",
+            "Is less interested in things that they used to enjoy, such as spending time with friends",
+            "Sounds pessimistic or hopeless",
+            "Has gained or lost a significant amount of weight"
+          ],
+          "secondaryHeader": "Someone experiencing depression may also experience:",
+          "secondarySigns": [
+            "Changes in their sleep patterns – sleeping more or less than usual",
+            "Headaches",
+            "Muscle aches",
+            "Difficulty concentrating",
+            "Social isolation"
+          ]
+        },
+        "dosDonts": [
+          {
+            "do": "Validate how the person is feeling",
+            "doBullets": [
+              "It sounds like you’re having a really hard time right now.",
+              "It’s okay to feel the way you feel.",
+              "I noticed ___________.  I wanted to check in to see how you’re doing."
+            ],
+            "dont": "Dismiss or try to talk the person out of their feelings",
+            "dontBullets": [
+              "You don’t have any reason to be depressed.  Lots of people have it worse.",
+              "Just focus on the positive. Think happy thoughts!",
+              "Snap out of it."
+            ]
+          },
+          {
+            "do": "Be empathetic",
+            "doBullets": [
+              "I’m sorry that you’re feeling this way.",
+              "I may not understand exactly what you’re going through, but you’re not alone in this.",
+              "You are important, and I care."
+            ],
+            "dont": "Judge",
+            "dontBullets": [
+              "Feeling sorry for yourself isn’t going to help.",
+              "Just stop it -- you’re in control of your own feelings."
+            ]
+          },
+          {
+            "do": "Help the person to help themselves",
+            "doBullets": [
+              "I can help connect you with resources to help - the University Counseling Center, tutoring, Financial Aid, an advisor, Housing, Replenish, the Registrar's Office, etc.",
+              "Is there anything that helps when you're feeling down like this?",
+              "Do you have people who can support you when you're feeling this way?"
+            ],
+            "dont": "Jump in to “fix” the problem for them. . . .",
+            "dontBullets": [
+              "Everything will be okay, I promise.",
+              "Don’t worry. . . we’ll do whatever you want/need to feel better.",
+              "You should go to therapy, exercise, cut out sugar, etc."
+            ]
+          },
+          {
+            "do": "Ask the person if they are suicidal if you are concerned for their safety.",
+            "doBullets": [
+            ],
+            "doLast": "[link /guide, placeholder: I have a student who may be suicidal.]",
+            "dont": "Ignore warning signs of suicide.",
+            "dontBullets": [
+            ]
+          }
         ]
+      },
+      {
+        "subscript": "may be",
+        "label": "Suicidal",
+        "secundaryBody": "QPR Suicide Prevention Gatekeeper Trainings are held throughout the year and are open to students, faculty, and staff.  Visit the University Counseling Center [link https://www.gvsu.edu/counsel/module-events-calendar.htm?siteModuleId=8BEB22D5-E16B-7BDE-C0A104132E7438D5 placeholder: outreach calendar] for scheduled dates and times.\nTo request a QPR Suicide Prevention Gatekeeper Training for your department or a student, faculty, or staff group, visit the University Counseling Center [link https://www.gvsu.edu/counsel/outreach-141.htm, placeholder: outreach request site].",
+        "description": "[picture suicide]\nIn the United States, someone attempts suicide every 27 seconds.  While suicide is the 10th leading cause of death nationally, it is the 2nd leading cause of death among college students – and rates are on the rise.  Suicide may be difficult to talk about, but the warning signs should never be ignored.  Whereas most are not trained to treat those who are experiencing suicidality, anyone can help save a life.",
+        "resourcesRelevant": [
+          {
+            "name": "University Counseling Center",
+            "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit [link /faq, placeholder: FAQ button]."
+          },
+          {
+            "name": "Dean of Students",
+            "body": "If you have reached out to the student with support and resources and the student is in need of additional assistance, you can file a [link https://www.gvsu.edu/care/, placeholder: CARE Report].  A member of the Division of Student Affairs will review the report and follow-up as appropriate.  If the student is feeling suicidal or otherwise in crisis, please click the “I Have An Emergency” button."
+          },
+          {
+            "name": "National Resources",
+            "body": "Additional resources are available for those experiencing suicidal thoughts.  It might be helpful to post these somewhere in your office or share them with students of concern, but providing these resources should not take the place of seeking help directly when confronted with a suicidal student.\nCrisisText:  Text [phone 741741]\nNational Suicide Hotline: [phone 1-800-273-8255]\nTrevor Lifeline (LGBTQIA+ suicide prevention / support):  Call [phone 1-866-488-7386]\n Trans Lifeline:  Text \"Trevor\" to [phone 1-202-304-1200] \n Call [phone 1-877-565-8860]\nVeterans Crisis Line: Text [phone 838255] \n Call [phone 1-800-273-8255]\n[phone 911]"
+          }
+        ],
+        "videoLink": "AecNqFk8glo",
+        "warningSigns": {
+          "primaryHeader": "If someone is feeling suicidal, you might notice that the person:",
+          "primarySigns": [
+            "Seems depressed, or their mood has otherwise changed significantly",
+            "Expresses feelings of hopelessness",
+            "Shares thoughts of suicide, such as: “I wish I were dead”, “I can’t go on anymore”, “Everyone would be better off without me here”,“Nobody would care if I weren’t around anymore”,“I will kill myself if I don’t pass this class, my partner breaks up with me, etc.”",
+            "Is isolating themselves from others",
+            "Is engaging in concerning behaviors, such as giving away their possessions, harming themselves,     acquiring weapons, etc.",
+            "Has recently experienced a traumatic life event, such as a breakup, failing a class, or the loss of a loved one"
+          ],
+          "secondaryHeader": "",
+          "secondarySigns": []
+        },
+        "dosDonts": [
+          {
+            "do": "ALWAYS ASK someone directly if you are concerned that they may be suicidal.",
+            "doBullets": [
+              "Are you thinking of killing yourself?",
+              "Has it gotten so bad that you’ve considered suicide?",
+              "I’ve noticed _________.  Sometimes when that happens, people wish that they were dead.  Have you been feeling that way?"
+            ],
+            "doLast": "If you are unable or too uncomfortable to ask someone if they are feeling suicidal, find someone else who can.  A student’s life may depend on it.",
+            "dont": "Ignore warning signs of suicide or assume that someone else will intervene.",
+            "dontBullets": []
+          },
+          {
+            "do": "Be empathetic",
+            "doBullets": [
+              "Thank you for reaching out/talking to me.",
+              "I’m sorry that you’re hurting."
+            ],
+            "dont": "Judge",
+            "dontBullets": [
+              "Your life’s not that bad. . .a lot of people have it far worse than you do.",
+              "You don’t really mean that.",
+              "Everyone will be mad/upset at you if you kill yourself.",
+              "Suicide is selfish."
+            ]
+          },
+          {
+            "do": "Instill hope. . .hope saves lives",
+            "doBullets": [
+              "I know it may not feel like it right now, but this can get better.",
+              "I care about you, and I want you to live.",
+              "I know how to find someone who can help."
+            ],
+            "dont": "Give advice",
+            "dontBullets": [
+              "There’s nothing worth dying for.",
+              "Just try to forget about it.",
+              "You should go to therapy, mediate, exercise, buy a sun lamp, etc."
+            ]
+          },
+          {
+            "do": "Connect the person with resources",
+            "doBullets": [
+              "If someone says that they are suicidal, or you have reason to suspect that they may harm themselves, do not wait to intervene.  Help is available 24-hours a day.  Connect them with available emergency services using the “I Have an Emergency” button below.",
+              "If the student is not feeling suicidal but is struggling with their mental health or another concern, additional campus resources are available."
+            ],
+            "dont": "Wait to get help.",
+            "dontBullets": []
+          }
+        ]
+      },
+      {
+        "subscript": "is / may",
+        "label": "Threatening/Harm Others",
+        "description": "Campus safety has moved into the foreground at academic institutions across the country.  Recent events and the constant streaming of tragedies from around globe have heightened fears for many.  While it is impossible to accurately predict who might act on concerning behaviors, research has found some commonalities among those who are threatening or might otherwise cause harm to others.  It is important to note that alone, or even in combination, many of the warning signs below are not directly related to risk.  Use your judgement, reach out for help when needed, and err on the side of your safety and the safety of the campus community.",
+        "resourcesRelevant": [
+          {
+            "name": "University Counseling Center",
+            "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit the [link /faq, placeholder: FAQ button]."
+          },
+          {
+            "name": "Dean of Students",
+            "body": "If you have reached out to the student with support and resources and the student is in need of additional assistance, you can file a [link https://www.gvsu.edu/care/, placeholder: CARE Report].  A member of the Division of Student Affairs will review the report and follow-up as appropriate. If a student is being threatening or is otherwise a risk to others, please click the “I Have An Emergency” button"
+          },
+          {
+            "name": "GVPD Non-emergency",
+            "body": "The Grand Valley Police Department and other local law enforcement authorities are available to assist if you are feeling threatened or are concerned for your safety or the safety of the campus community."
+          }
+        ],
+        "videoLink": "",
+        "warningSigns": {
+          "primaryHeader": "If someone is behaving in a threatening way or at risk of harming others, you might notice that the person:",
+          "primarySigns": [
+            "Expresses feelings of anger, rage, or persecution toward a person, group, or society in general",
+            "Engages in concerning behaviors, such as acquiring weapons, breaking laws, or taking risks with their lives or the lives of others",
+            "Threatens violence or shares thoughts of violence against others",
+            "Is withdrawn or socially isolated",
+            "Seems depressed, or their mood has otherwise changed significantly",
+            "Yells at or otherwise attempts to intimidate others",
+            "Have a history of violence against people or animals",
+            "Have a history of conflict with authority"
+          ],
+          "secondaryHeader": "The person may also",
+          "secondarySigns": [
+            "Have a history of violence against people or animals",
+            "Have a history of conflict with authority",
+            "Abuse substances"
+          ]
+        },
+        "dosDonts": [
+          {
+            "do": "If there is immediate danger, remove yourself from the situation and contact GVPD or 911.\nIf there is no immediate danger, refer to the following DOs and DONTs.",
+            "doBullets": [],
+            "dont": "Interrupt during peak anger",
+            "dontBullets": ["Peak anger usually lasts 20-30 seconds."]
+          },
+          {
+            "do": "Allow the student to tell you what they are feeling, even if you disagree or are concerned by it",
+            "doBullets": [
+              "I hear that you are feeling ________.",
+              "I’m sorry that you feel ________.",
+              "Or, say nothing at all.  Allow the person to experience and share their feelings without fear of judgement."
+            ],
+            "dont": "Ignore or minimize how the person is feeling",
+            "dontBullets": [
+              "Don’t say that. . . .you’ll get in trouble.",
+              "Oh, you don’t mean that.",
+              "Whatever you’re upset about is not that big of a deal."
+            ]
+          },
+          {
+            "do": "Be firm and set limits",
+            "doBullets": [
+              "I will be willing to speak with you as soon as you lower your voice.",
+              "If you continue to ________, I will have to ask you to leave the room.",
+              "I am feeling uncomfortable with ________ and am going to have to ask you not to do that again.",
+              "I am unable to do ________.  If you would like to discuss this further, you can contact ________."
+            ],
+            "dont": "Blame, ridicule, or use sarcasm",
+            "dontBullets": [
+              "It’s your own fault this happened.",
+              "Maybe if you had done ________, things would be different.",
+              "You’re crazy."
+            ]
+          },
+          {
+            "do": "Focus on resolving the situation",
+            "doBullets": [
+              "Is there something that I can do to be helpful?",
+              "I can connect you with resources to help – the University Counseling Center, tutoring, Financial Aid, an advisor, Housing, Replenish, the Registrar’s Office, etc.",
+              "What usually works for you when you’re feeling this upset?"
+            ],
+            "dont": "Argue",
+            "dontBullets": [
+              "Remain calm. Raising your voice or arguing back can further escalate an already difficult situation."
+            ]
+          },
+          {
+            "do": "Act",
+            "doBullets": [
+              "File a CARE Report if there is no immediate danger and you would like a member of the Division of Student Affairs staff to check-in with the person.",
+              "Remove yourself from the situation and contact GVPD or 911 immediately if you are concerned for you safety or the safety of others at any time."
+            ],
+            "dont": "Wait to get help.",
+            "dontBullets": []
+          }
+        ]
+      },
+      {
+        "subscript": "is exhibiting",
+        "label": "Unusual/Bizarre Behavior",
+        "description": "[picture psychosis]\nInteracting with someone who speaks or behaves in a way that is unusual can feel frightening. Contrary to what is portrayed in movies and the media, those who experience disruptions to reality are not inherently more dangerous than others. The fact is that disorders that alter the way people think and experience the world are more common than most believe. These disorders often emerge in early adulthood. For some, that means while they are in college.\nThere are many reasons that someone may be exhibiting bizarre or unusual behavior, including a psychotic disorder, a psychotic episode related to another mental health disorder, recreational use or drugs or alcohol, an unintended side-effect of a prescribed medication, nutritional deficits, dehydration, and lack of sleep. It is important to remember that symptoms may present differently in different people.",
+        "resourcesRelevant": [
+          {
+            "name": "University Counseling Center",
+            "body": "The University Counseling Center offers free mental health services to currently enrolled students.  All students are seen within 48 hours for an initial screening, and crisis appointments are available same-day.  To see frequently asked questions about mental health services on campus, visit the [link /faq, placeholder: FAQ button]."
+          },
+          {
+            "name": "Dean of Students",
+            "body": "If you have reached out to the student with support and resource and the student is in need of additional assistance, you can file a [link https://www.gvsu.edu/care/, placeholder: CARE Report].  A member of the Division of Student Affairs will review the report and follow-up as appropriate.  If a student is in any immediate danger or you are afraid to leave them alone, please click the “I Have an Emergency” button."
+          },
+          {
+            "name": "GVPD Non-emergency",
+            "body": "The Grand Valley Police Department and other local law enforcement authorities are available to assist if you concerned for someone’s safety or ability to make safe decisions on their own behalf."
+          }
+        ],
+        "videoLink": "u3FES9W8P04",
+        "warningSigns": {
+          "primaryHeader": "If someone is experiencing a psychotic episode or their thought processes are otherwise impaired, you might notice that the person:",
+          "primarySigns": [
+            "Seems confused or disoriented",
+            "Is disorganized in their speech – what they are saying may not make sense, or their thoughts may be difficult to follow",
+            "Appears to be seeing, hearing, or experiencing things that others around them are not",
+            "Believes something that you have reason to suspect is untrue",
+            "Has either heightened emotions or appears to be void of emotion",
+            "Is not maintaining hygiene or self-care"
+          ],
+          "secondaryHeader": "The person may also:",
+          "secondarySigns": [
+            "Withdraw from family and friends",
+            "Struggle to perform the activities of daily living, such as going to work or school",
+            "Sleep far more or far less than usual"
+          ]
+        },
+        "dosDonts": [
+          {
+            "do": "Be gentle and calm",
+            "doBullets": [
+              "Speak in a quiet/low voice.",
+              "Use short, simple sentences.",
+              "Repeat yourself if necessary."
+            ],
+            "dont": "Panic",
+            "dontBullets": [
+              "Raising your voice or having a strong emotional response may only escalate what the person is experiencing."
+            ]
+          },
+          {
+            "do": "Empathize",
+            "doBullets": [
+              "I don’t know what you are experiencing.  Can you describe it to me?",
+              "I can only imagine how difficult this must be for you.",
+              "I care about you and will do what I can to help."
+            ],
+            "dont": "Judge or criticize",
+            "dontBullets": [
+              "You’re crazy or You’re psycho.",
+              "What is wrong with you?",
+              "That’s not true. . .you’re just telling yourself that."
+            ]
+          },
+          {
+            "do": "Focus on feelings rather than facts, if their thoughts seem disordered or disorganized",
+            "doBullets": [
+              "How are you feeling right now?",
+              "You must be feeling very _______ right now.",
+              "I can see why you feel the way that you do."
+            ],
+            "dont": "Try to correct the person’s thinking or convince them to think differently",
+            "dontBullets": [
+              "Snap out of it.",
+              "What you’re saying doesn’t make any sense!",
+              "No, that thing is not true, and here are the reasons why:"
+            ]
+          },
+          {
+            "do": "Connect the student with someone who can help",
+            "doBullets": [
+              "If you believe that a student may be decompensating or have seen concerning changes in their behavior over time, file a CARE Report.",
+              "Refer the student to the University Counseling Center.  Same-day crisis appointments are available, and faculty and staff are welcome to bring students to the office and share their concerns.  Faculty and staff may also call to consult with a member of the UCC staff over the phone.",
+              "If you are concerned that the student is unable to make decisions on their own behalf or may be a danger to themselves or others, please click the “I Have an Emergency” button below."
+            ],
+            "dont": "Ignore troubling behavior or symptoms",
+            "dontBullets": [
+              "Bizarre or otherwise unusual behavior can be the result of a serious medical or mental health condition.  The sooner that it is recognized and treated, the better for the student."
+            ]
+          }
+        ]
+      }
+    ],
+    "otherwiseOfConcern": {
+      "header": "Otherwise of concern",
+      "subscript": "who is",
+      "tiles": [
+        {
+          "header": "I have a student who is NOT COMING TO CLASS",
+          "body": "A student may not be attending class for a variety of reasons – they may be ill, attending to a personal emergency, in the process of withdrawal, or otherwise unable.  If you are concerned about a student who is not attending class, you can do two things:\n- Reach out to the student personally.  Express your concern, share available resources, and work with the student, if appropriate, to transition back to class.\n- File a [link https://www.gvsu.edu/care/, placeholder: CARE Report].  The Student Support Manager will reach out to the student to provide support and resources."
+        },
+        {
+          "header": "I have a student who has shared that they have a DISABILITY",
+          "body": "If a student is requesting accommodations for a disability, they will need a memorandum, or “memo”, from the Disability Support Resources office.  While faculty and staff have the right to address individual student concerns as they believe appropriate, official accommodations are determined by DSR and outlined in the memo that students receive.  In order to receive a memo, students must self-disclose their disability and provide required documentation.\n If a student says that they have a disability but is not registered with Disability Support Resources, you can direct them to the [link https://www.gvsu.edu/dsr/, placeholder: DSR website] for additional information.\nStudents may also call [phone 616-331-2490] to schedule an appointment with a DSR advisor."
+        },
+        {
+          "header": "I have a student who I’m concerned is USING ALCOHOL OR DRUGS",
+          "body": "The University offers resources to help students who are struggling with alcohol or drug use.  Students may be referred to Alcohol and Other Drugs Services, or AOD, for information, support, and treatment.  Through AOD Services, the University Counseling Center provides prevention and outreach programming, as well as individual and group counseling for substance-related concerns.  Meetings are also available on-campus for students and community members in active recovery.  To learn more about AOD Services, students can visit the [link https://www.gvsu.edu/aod, placeholder: Aces Website] or call\n [phone 616-331-2537].\n\nIf you are concerned that a student is under the influence of alcohol or drugs in class or a meeting, please call GVPD to share your observations.  Signs may include slurred speech, difficulty with balance, dilated pupils, or loss of consciousness, among others.  Even if a student is not exhibiting these symptoms, a call to GVPD is still warranted if you are concerned that they are intoxicated."
+        },
+        {
+          "header": "I have a student who has experienced SEXUAL ASSAULT/PARTNER VIOLENCE",
+          "body": "Services are available to students who have experienced sexual assault, stalking, or intimate partner violence.  Students may be referred to the Victim Advocate for support and resources. For more information about victim advocacy visit the [link https://www.gvsu.edu/cwge/, placeholder: Center for Women and Gender Equity].\n  Students can schedule an appointment with the Victim Advocate by calling [phone 616-331-2748].\n\n Additionally, the University Counseling Center provides individual and group counseling to sexual assault survivors.  Additional information is available on the [link https://www.gvsu.edu/counsel/community]\n or by calling [phone 616-331-3266].\n If a student reveals a recent sexual assault and is in crisis, please click the “I Have an Emergency” button. /n You may be required to report what was disclosed as a University employee. For more information about Title IX reporting for faculty and staff, please visit the Office for [link https://www.gvsu.edu/titleix/, placeholder: Title IX and Institutional Equity website].\n If someone has disclosed to you a sexual assault or trauma, consider the following tips:\n- Thank them for trusting you\n- Allow them to share without prodding or asking unnecessary questions\n- Avoid giving advice or saying things like, “That wouldn’t have happened if. . .” or “You should have. . . ”\n- Tell them that you are sorry about what happened to them\n- Offer your support and resources to help them cope"
+        }
+      ]
     }
+  },
+  "resource": {
+    "tiles": [
+      {
+        "department": "University Counseling Center",
+        "link": "https://www.gvsu.edu/counsel",
+        "email": "",
+        "phone": "616-331-3266",
+        "picture": ""
+      },
+      {
+        "department": "Dean of Students",
+        "link": "https://www.gvsu.edu/care/",
+        "phone": "616-331-3585",
+        "email": "dso@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Student Ombuds",
+        "link": "https://www.gvsu.edu/dos",
+        "phone": "616-331-2491",
+        "email": "garrettt@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Tutoring Center",
+        "link": "https://www.gvsu.edu/tc/",
+        "phone": "616-331-3451",
+        "email": "tutoring@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "ENCOMPASS",
+        "link": "https://www.mylifeexpert.com/login",
+        "phone": "1-800-788-8630",
+        "email": "",
+        "picture": ""
+      },
+      {
+        "department": "Housing",
+        "link": "https://www.gvsu.edu/housing/",
+        "phone": "616-331-2120",
+        "email": "housing@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Office of Multicultural Affairs",
+        "link": "https://www.gvsu.edu/oma/",
+        "phone": "616-331-2177",
+        "email": "oma@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "GVPD Non-emergency",
+        "link": "https://www.gvsu.edu/dps/",
+        "phone": "616-331-3255",
+        "email": "",
+        "picture": ""
+      },
+      {
+        "department": "Health Center",
+        "link": "https://www.gvsu.edu/campushealth/",
+        "phone": "616-252-6030",
+        "email": "",
+        "picture": ""
+      },
+      {
+        "department": "Center for Women and Gender Equity",
+        "link": "https://www.gvsu.edu/cwge/",
+        "phone": "616-331-2748",
+        "email": "cwge@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "LGBT Center",
+        "link": "https://www.gvsu.edu/lgbtrc/",
+        "phone": "616-331-2530",
+        "email": "lgbtcenter@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Financial Aid",
+        "link": "https://www.gvsu.edu/financialaid/",
+        "phone": "616-331-3234",
+        "email": "finaid@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Disability Support Resources",
+        "link": "https://www.gvsu.edu/dsr/",
+        "phone": "616-331-2490",
+        "email": "dsrgvsu@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Replenish",
+        "link": "https://www.gvsu.edu/replenish/",
+        "phone": "616-331-2748",
+        "email": "",
+        "picture": ""
+      },
+      {
+        "department": "Victim Advocate",
+        "link": "https://www.gvsu.edu/vro/what-is-a-victim-advocate-55.htm",
+        "phone": "616-331-2748",
+        "email": "",
+        "picture": ""
+      },
+      {
+        "department": "Registrars Office",
+        "link": "https://www.gvsu.edu/registrar/",
+        "phone": "616-331-3327",
+        "email": "regdept@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Alcohol and Other Drugs (AOD) Services",
+        "link": "https://www.gvsu.edu/aod",
+        "phone": "616-331-2537",
+        "email": "aod@gvsu.edu",
+        "picture": ""
+      },
+      {
+        "department": "Academic/Career Resources",
+        "link": "",
+        "phone": "",
+        "email": "",
+        "picture": "",
+        "hidden": true
+      },
+      {
+        "department": "National Resources",
+        "link": "",
+        "phone": "",
+        "email": "",
+        "picture": "",
+        "hidden": true
+      }
+    ]
+  },
+  "faq": {
+    "tiles": [
+      {
+        "question": "If a student shares something in confidence, is it ok for me to tell someone else if I am concerned?",
+        "answer": "Because they interact with students regularly, faculty and staff are often the first to notice concerning changes in students’ mood or behavior. It is appropriate to consult with the University Counseling Center about student mental health concerns that arise, especially when those concerns involve student safety. This is not a breach of student confidentiality. Our clinical staff can provide you with information to address the situation. If your attempts are not successful you may file a CARE Report to instigate next steps to ensure student well-being."
+      },
+      {
+        "question": "What is a CARE Report and when should I file one?",
+        "answer": "While attending GVSU, students may experience a variety of concerns, including academic distress, financial insecurity, inability to meet basic needs, physical illness, mental health symptoms, bias incidents, housing instability, relationship difficulties, and disruptive or disturbing behavior, among others. The CARE Team (Coordination, Assistance, Response, and Education) is comprised of professional staff members who support all students through challenges they may experience during their time at GVSU. Please complete a [link https://www.gvsu.edu/care/, placeholder: CARE Report] if the student needs more assistance than you are able to provide."
+      },
+      {
+        "question": "I want to make sure the student I referred is safe/got help. Is this possible?",
+        "answer": "As licensed healthcare professionals, the University Counseling Center staff cannot legally share whether a student attended a session or received mental health services. If appropriate to your role and/or the nature of your relationship with the student, we encourage you to check in with them after making a referral. Consider asking:\n- How have things been going since we last talked?\n- Did you have a chance to talk to anyone yet?"
+      },
+      {
+        "question": "What if I'm worried about someone who is not a student (myself, a faculty or staff member, etc.)?",
+        "answer": "Although the University Counseling Center only provides treatment to currently enrolled students, there are many resources available to others who may be struggling with their mental health. For you and other members of the faculty/staff: \n- If there is an immediate threat to self or others, call 911 or GVPD at [phone 616-331-3255].\n- The Human Resources Office offers free mental health services to University employees through Encompass [link https://www.gvsu.edu/hro/].\n- Faculty and staff can access the University Counseling Center community provider database for assistance in identifying a clinician who meets their needs [link https://www.gvsu.edu/counsel/community].\n For family members or loved ones:\n- If there is an immediate threat to self or others, call 911.\n- Utilize the University Counseling Center community provider database [link https://www.gvsu.edu/counsel/community].\n- For West Michigan mental health resources, visit Psychology Today [link https://www.psychologytoday.com]."
+      },
+      {
+        "question": "What mental health resources/services does UCC offer?",
+        "answer": "[link https://www.gvsu.edu/counsel, placeholder: The University Counseling Center] offers a variety of services to suit students’ diverse mental health needs. Services are provided at no cost to currently registered GVSU students and include:\n- Short-term individual therapy\n- Unlimited group therapy, including general therapy groups, symptom management groups, and support groups\n- Substance abuse prevention and treatment\n- Community referral \n- Mental health prevention and education\n- Online self-help tools and resources\n- Consultation for concerned students, faculty, and staff"
+      },
+      {
+        "question": "How long does it take for a student to be seen at the University Counseling Center?",
+        "answer": "All first-time student appointments are scheduled within two business days. These screening appointments assess student concerns, identify risk, and connect students with appropriate services, which may include individual counseling, group counseling, symptom management resources, or referral to a community provider. If referred to individual counseling, appointments are generally scheduled no more than two weeks out. Group counseling is available throughout the semester. If students need to be seen more quickly, a counselor will assist them in finding a provider in the community who may better meet their needs."
+      },
+      {
+        "question": "A student has submitted an assignment/sent me an email with concerning content, and I am reading it from my home/office after-hours:",
+        "answer": "If you receive concerning written communication from a student, consider the following:\n1) Thank the student for reaching out and trusting you enough to share their thoughts/feelings.\n2) Offer support, such as:\n- If appropriate, a meeting or check-in to discuss the student’s concerns\n- Referral to the University Counseling Center for a same-day crisis appointment or screening appointment by calling [phone 616-331-3266] during business hours\n- Reminder to contact 911 or go to a local emergency room if in crisis\n3)  File a [link https://www.gvsu.edu/care/, placeholder: CARE Report] with the Dean of Students Office.  Your report will enable the Care Team to assess risk and take appropriate action.\n4)  Consult with a member of the UCC staff by calling [phone 616-331-3266].\n\nIf you are concerned at any time for the student’s safety or the safety of others, contact 911 immediately. A police officer can perform a welfare check and connect the student with appropriate resources."
+      }
+    ]
+  },
+  "emergency": {
+    "description-header": "A mental health concern becomes a mental health emergency when someone:",
+    "description-bullets": "- Is at risk of harming themselves\n- Is at risk of harming someone else\n- Appears out-of-touch with reality or unable to make decisions on their own behalf\n- Has just experienced a trauma (directly after a sexual assault, physical assault, act of terror, etc.)",
+    "description-footer": "In situations like these, your actions are crucial to the well-being of the student and the larger campus community. \n Students experiencing a mental health concern but not actively in crisis may be referred to the University Counseling Center for services. Please visit the “I Have a Student Who. . . .” page for additional information and resources.",
+    "concern-header": "If you are concerned that a student:",
+    "concern-bullets": "- May not be safe\n- May harm someone else\n- Is behaving unusually or appears unable to make decisions on their own behalf\n- Has experienced a recent trauma",
+    "businessHours": {
+      "title": "During business hours:",
+      "body": "- Call the University Counseling Center for a consultation or to assist the student with scheduling a crisis appointment.\n- Bring the student to the University Counseling Center for a crisis appointment with a counselor. \n- If there is any immediate risk to the student's well-being, call 911 or GVPD at [phone 616-331-3255]."
+    },
+    "afterHours": {
+      "title": "After business hours:",
+      "body": "- If the student lives off-campus or there is an immediate risk to the student’s safety, call 911 immediately.\n- If the student lives on campus, call GVPD at [phone 616-331-3255] to initiate a wellness check and/or connect the student with the on-call counselor",
+      "shouldShowCan": false
+    }
+  },
+  "classRoomTechniques": {
+    "header": "As a higher education professional, you know that some stress is inevitable. In addition to academic stressors, many students experience financial insecurity, family distress, relationship issues, social biases, and physical and mental health conditions, among others.  It’s important to remember that while some stress is to be expected, stress that builds up over time can lead to more serious mental health concerns. The good news is that you can help students, right from your classroom. Consider incorporating the following:",
+    "techniques": [
+      {
+        "header": "Mindfulness Minute",
+        "body": "Mindfulness has been proven to reduce stress. Starting your class with a short 2:00 minute video can help students decrease stress and prepare for learning.\n[video: cEqZthCaMpo]\n In addition, you can link to longer videos on Blackboard or in your syllabus and encourage students to utilize them.\n[video: sG7DBA-mgFY]\n[video: QS2yDmWk0vs]"
+      },
+      {
+        "header": "Syllabus Disclaimer",
+        "body": "A brief statement in your syllabus can show students that you are supportive of their mental health, while also introducing them to services and reducing stigma around seeking treatment. Below is an example of a statement to include in your syllabus:\n\n\"Mental health concerns, including overwhelming stress, excessive worry, difficulty participating in daily activities, and changes in mood, appetite, or sleep patterns, can interfere with your academic performance. It is important to know that Grand Valley State University values your health and wellness and provides services to support your mental health on campus. If you are struggling with your mental health or are concerned for another member of our campus community, I urge you to reach out to the University Counseling Center for resources and available services.\"\n\nUniversity Counseling Center:\n[phone 616-331-3266]\n[link https://www.gvsu.edu/counsel/]"
+      },
+      {
+        "header": "Brain Breaks",
+        "body": "When presented with new material and complicated topics, people retain information best when focused and calm.  Consider using brain breaks and focused-attention practices to positively impact students’ emotional wellness and readiness to learn.\n- Open up a space on Blackboard where students can share funny videos, memes, pictures, or jokes. Then utilize this material to lighten the mood, and refocus attention in your class.\n- Allow time and space for standing up and stretching in the middle of class.\n- Utilize a deep breathing exercise at the beginning or middle of class, or before a big test. [video: cEqZthCaMpo]"
+      },
+      {
+        "header": "Mental Health Reminders",
+        "body": "Supporting students’ emotional well-being is campus-wide responsibility. By openly talking about mental health, you will play an important role in creating a healthier and safer campus community. This can be as simple as using phrases like: \n- Midterms can be stressful. As you prepare, be sure to care of your yourself. \n- Take breaks, eat well, and stay connected with people you care about. And remember, there are services on campus that can help. \n- Let’s take a few moments to “check in” with ourselves. This is a chance for each of us to recognize how we’re feeling and acknowledge any worries or concerns that we have. \n- How are you feeling? What usually helps when you’re stressed/anxious/overwhelmed? And who are your supports? Remember there are mental health services available to you if you’re struggling to manage."
+      },
+      {
+        "header": "Self Care",
+        "body": "If you have a particularly stressful or difficult lesson planned, encourage students to take part in self-care prior to attending class. \n- Exercise: Exercise is important to both physical and mental health, boosting mood and reducing stress and anxiety.  Not everyone can make it to the gym, but you can encourage students to be active in a way that works for them, such as using online workout videos or exploring the outdoors by foot, wheelchair, bike, or whichever way works best for them! [link https://www.gvsu.edu/rec/, placeholder: Visit Rec and Wellness] for information about staying physically healthy. \n- Sleep: Remind students that sleep is vital to their physical and mental health.  Encourage students to create (and stick to!) a sleep routine.  Sometimes all-nighters can do more harm than good when it comes to retaining information and performing important tasks. The University Counseling Center has information about [link https://www.gvsu.edu/counsel/sleep-313.htm, placeholder: sleep hygiene]. \n- Nutrition: Healthy eating can keep our minds working and alert. There are options on campus to help students eat right for self-care. Remind students to fuel-up with healthy foods before a big test or when they have a long day ahead. Those facing food insecurity can use the on-campus food resource, [link https://www.gvsu.edu/replenish/, placeholder: Replenish], as well! \n- Boundaries: A lot of students struggle to say “no” to family, friends, and opportunities for fun in college. Learning to say no can be difficult, but it is important for students to protect their time and energy. Empower students to say no for self-care! The University Counseling Center has more information about [link https://www.gvsu.edu/counsel/healthy-relationships-309.htm, placeholder: healthy relationships and boundaries]."
+      }
+    ]
+  }
 }

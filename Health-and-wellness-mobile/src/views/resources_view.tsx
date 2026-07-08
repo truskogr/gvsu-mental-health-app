@@ -32,6 +32,6 @@ export default class ResourcesView extends React.Component<Props> {
     return (
       <ResourceSlideDock resources={data} resourceView={true} />
     )
-  }  
+  }
 }
 
