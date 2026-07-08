@@ -1,0 +1,11 @@
+@import '../../theme/theme.scss';
+
+.card {
+    width: 100%;
+    margin: 4 * $pad-lg;
+    background-color: $secondary;
+}
+
+.card__stretch {
+    min-height: 600px;
+}
