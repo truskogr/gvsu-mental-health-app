@@ -1,0 +1,14 @@
+@import '../../theme/theme.scss';
+
+.resource-tile__image {
+    width: 100%;
+    height: 192px;
+}
+
+.resource-tile__contact {
+    margin: $pad-lg;
+}
+
+.resource-tile__icon {
+    margin-right: $pad-md;
+}

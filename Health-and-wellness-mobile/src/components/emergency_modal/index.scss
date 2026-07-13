@@ -1,0 +1,25 @@
+@import '../../theme/theme.scss';
+
+.emergency-modal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 1.5em;
+    overflow: auto;
+}
+
+.emergency-modal__section {
+    margin: 3 * $pad-lg 0;
+}
+
+.emergency-modal__header {
+    margin: $pad-lg 0;
+    @include font-sub-header();
+    color: unset;
+}
+
+.emergency-modal__description {
+    margin: $pad-lg 0;
+    @include font-description();
+    font-weight: 200;
+}

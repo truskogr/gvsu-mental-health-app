@@ -1,0 +1,15 @@
+@import '../../theme/theme.scss';
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3 * $pad-lg;
+    color: black;
+    font-family:Gotham;
+    font-weight:300;
+}
+
+.modal-body {
+    height: 100%;
+    padding: $pad-md 0;
+}
