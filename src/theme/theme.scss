@@ -1,0 +1,55 @@
+//padding variables
+$pad-sm: 2px;
+$pad-md: 4px;
+$pad-lg: 8px;
+$pad-icon: 24px;
+$pad-modal: $pad-lg 4 * $pad-lg;
+
+
+//icon size
+$scroll-icon: 16px;
+
+//theme-colors
+$primary: #0065A4;
+$primary-text: #fbfef9;
+$secondary: #dff5fb;
+$secondary-text: #fbfef9;
+$view: #fbfef9;
+$panel: #e7eceF;
+
+//radius measurements
+$border-radius: 8px;
+$border-radius-lg: 14px;
+
+@mixin font-regular($size: 11px, $lineHeight: 10px) {
+    text-align: center;
+    vertical-align: center;
+    font-size: $size;
+    line-height: $lineHeight;
+    color: $primary-text;
+}
+
+@mixin font-bold($size: 11px, $lineHeight: 10px) {
+    @include font-regular($size, $lineHeight);
+    font-weight: bold;
+}
+
+@mixin font-underlined($size: 11px, $lineHeight: 10px) {
+    @include font-regular($size, $lineHeight);
+    text-decoration: font-underlined;
+}
+
+@mixin font-header($size: 18px, $lineHeight: 25px) {
+    @include font-regular($size, $lineHeight);
+    color: $primary-text;
+}
+
+@mixin font-sub-header($size: 18px, $lineHeight: 25px) {
+    @include font-regular($size, $lineHeight);
+    text-align: start;
+}
+
+@mixin font-description($size: 15px, $lineHeight: 20px) {
+    @include font-regular($size, $lineHeight);
+    text-align: start;
+}

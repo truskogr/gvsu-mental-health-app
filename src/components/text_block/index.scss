@@ -1,0 +1,18 @@
+@import '../../theme/theme.scss';
+
+.text-block {
+    color: black;
+}
+
+.text-block__tabbed {
+    margin-left: 2 * $pad-lg;
+}
+
+.text-block__bold {
+    margin-top: $pad-md;
+    font-weight: bold;
+}
+
+.text-block__break {
+    height: $pad-lg;
+}
