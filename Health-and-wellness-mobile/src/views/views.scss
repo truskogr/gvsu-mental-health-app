@@ -1,0 +1,172 @@
+@import '../theme/theme.scss';
+
+//Universal Styling
+.view__header {
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    @include font-header();
+    margin-top: calc(2 * #{$pad-lg});
+    padding: 0 calc(2 * #{$pad-lg});
+}
+
+.views__modal {
+    height: 100%;
+}
+
+.views__bullets {
+    margin: $pad-lg;
+}
+
+//Home View
+.home-view__wrappers {
+    flex-grow: 1;
+
+}
+
+.home-view {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-view__dock {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    .scroll-tile {
+        flex-grow: 1;
+        width: 45vw;
+    }
+    .scroll-tile:first-child{
+      margin-right: 0.5em;
+    }
+}
+
+//Login View
+.login-view {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.login-view__header {
+    color: $primary-text;
+}
+
+.login-view__background {
+    height: 100%;
+    background-image: url("../assets/gv.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: calc(4 * #{$pad-lg}) calc(2 * #{$pad-lg});
+    display: flex;
+    flex-direction: column;
+}
+
+.login-view__login {
+    flex-grow: 0;
+    width: 100%;
+    opacity: unset;
+}
+
+//Guide View
+.guide-view__modal {
+    @include font-regular();
+    font-weight: 100;
+}
+
+.guide-view__warning-signs {
+    padding-top: 2* $pad-sm;
+    @include font-regular();
+    color: black;
+    text-align: justify;
+    padding-right: 1em;
+}
+
+.guide-view__modal-header {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    @include font-sub-header();
+    font-size: 24px;
+    color: black;
+    position:relative;
+    text-align: center;
+
+    ion-icon {
+      position: absolute;
+      right: 0px;;
+    }
+}
+
+.guide-view__modal-subheader {
+    background-color: $primary;
+    @include font-sub-header();
+    border-radius: $border-radius;
+    padding: $pad-lg;
+    margin-bottom: 1em;
+    margin-top: $pad-lg;;
+    text-align: center;
+}
+
+.guide-view__modal-text {
+    text-align: start;
+    @include font-regular();
+    color: black;
+    text-align: left;
+    margin-bottom: $pad-lg;
+}
+
+.guide-view__dont .guide-view__modal-subheader,
+.guide-view__do .guide-view__modal-subheader{
+  background-color: inherit;
+  text-align: start;
+  margin: 0;
+  font-weight: 800;
+  font-size: 2.5em;
+  color: black;
+  padding: 0;
+  padding-bottom: 0.1em;
+}
+
+.guide-view__do {
+  background-color: #C9E1F4;
+  padding: 1em;
+  margin-bottom:0;
+  font-weight: 100;
+}
+
+.guide-view__dont {
+  background-color: #8DBFE3;
+  padding: 1em;
+  margin-bottom: 1em;
+  font-weight: 100;
+}
+.guide-view__dont>ul {
+  margin: 0;
+  padding-left: 3em;
+}
+.guide-view__do>ul {
+  margin: 0;
+  padding-left: 3em;
+}
+//Faq View
+.faq-view__dropdown {
+  padding: 0 1em;
+  text-transform: initial;
+}
+
+.faq-view__dropdown-section--tabbed {
+    margin-left: 2 * $pad-lg;
+}
+
+//Techniques View
+
+.technique-view__header {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.technique-view__modal {
+}

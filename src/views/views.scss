@@ -1,0 +1,126 @@
+@import '../theme/theme.scss';
+
+//Universal Styling
+.view__header {
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    @include font-header();
+    margin-top: calc(2 * #{$pad-lg});
+    padding: 0 calc(2 * #{$pad-lg});
+}
+
+.views__modal {
+    height: 100%;
+}
+
+.views__bullets {
+    margin: $pad-lg;
+}
+
+//Home View
+.home-view__wrappers {
+    flex-grow: 1;
+    
+}
+
+.home-view {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-view__dock {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 0 5 * $pad-lg; 
+
+    .scroll-tile {
+        flex-grow: 1;
+        width: 45vw;
+        height: 80px;
+        margin: $pad-sm;
+    }
+}
+
+//Login View
+.login-view {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.login-view__header {
+    color: $primary-text;
+}
+
+.login-view__background {
+    height: 100%;
+    background-image: url("../assets/gv.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: calc(4 * #{$pad-lg}) calc(2 * #{$pad-lg});
+    display: flex;
+    flex-direction: column;
+}
+
+.login-view__login {
+    flex-grow: 0;
+    width: 100%;
+    opacity: unset;
+}
+
+//Guide View
+.guide-view__modal {
+    padding: $pad-modal;
+}
+
+.guide-view__warning-signs {
+    padding-left: 3 * $pad-lg;
+    padding-top: $pad-sm;
+}
+
+.guide-view__modal-header {
+    margin-top: $pad-lg;
+    @include font-sub-header();
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.guide-view__modal-subheader {
+    background-color: $primary;
+    @include font-sub-header();
+    border-radius: $border-radius;
+    padding: $pad-lg;
+    text-align: center;
+}
+
+.guide-view__modal-text {
+    text-align: start;
+    margin-bottom: $pad-lg;
+}
+
+.guide-view__modal-bullets {
+    margin-left: 3 * $pad-lg;
+}
+
+//Faq View
+.faq-view__dropdown {
+    padding: 2 * $pad-lg;
+}
+
+.faq-view__dropdown-section--tabbed {
+    margin-left: 2 * $pad-lg;
+}
+
+//Techniques View
+
+.technique-view__header {
+    margin: 3 * $pad-lg;
+}
+
+.technique-view__modal {
+    margin: 3 * $pad-lg;
+}

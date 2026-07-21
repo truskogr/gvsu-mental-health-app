@@ -1,0 +1,27 @@
+@import "../../theme/theme.scss";
+
+.view-title {
+    align-content: center;
+    justify-content: center;
+}
+
+.view-body {
+    height: 100%;
+    padding: $pad-md 0;
+}
+
+.view-emergency {
+    width: 100%;
+    padding: 0 5 * $pad-lg;
+    overflow: none;
+}
+
+.view-footer {
+    text-align: center;
+    margin: 0 $pad-lg 2 * $pad-lg $pad-lg;
+}
+
+.view-header {
+    display: flex;
+    flex-direction: row;
+}

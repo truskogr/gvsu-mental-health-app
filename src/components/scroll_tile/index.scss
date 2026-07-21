@@ -1,0 +1,46 @@
+@import '../../theme/theme.scss';
+
+.scroll-tile {
+    border: 1px solid $panel;
+    border-radius: $border-radius-lg;
+    margin: calc(3 * #{$pad-lg}) calc(6 * #{$pad-lg});
+    background-color: $primary;
+}
+
+.scroll-tile--fill {
+    width: 100%;
+}
+
+.scroll-tile__button {
+    margin: $pad-md $pad-lg;
+    @include font-header(16px); 
+}
+
+.scroll-tile__subscript {
+    @include font-regular(12px);
+    text-align: initial;
+}
+
+.scroll-tile__dropdown {
+    background-color: $secondary;
+}
+
+.scroll-tile__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-tile__home {
+    min-height: 60px;
+    vertical-align: center;
+    padding: 10px 0;
+}
+
+.scroll-tile__home--title {
+    @include font-header();
+}
+
+.scroll-tile__modal {
+    height: 100%;
+    overflow: auto;
+}

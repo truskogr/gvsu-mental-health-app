@@ -1,0 +1,12 @@
+@import '../../theme/theme.scss';
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3 * $pad-lg;
+}
+
+.modal-body {
+    height: 100%;
+    padding: $pad-md 0;
+}

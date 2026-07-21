@@ -1,0 +1,29 @@
+@import '../../theme/theme.scss';
+
+.button-wrapper {
+    padding: $pad-lg;
+    height: fit-content;
+    width: fit-content;
+
+    & span {
+        @include font-regular();
+    }
+}
+
+.button-wrapper__fill-width {
+    width: 100%;
+    padding: $pad-lg 0 ;
+    
+    & .button {
+        width: 100%;
+    }
+}
+
+.button-wrapper__outline {
+    background-color: transparent;
+    border: 2px solid;
+}
+
+.button-wrapper__emergency {
+    background-color: red;
+}

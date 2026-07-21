@@ -1,0 +1,23 @@
+@import '../../theme/theme.scss';
+
+.text-block {
+    color: black;
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.text-block__tabbed {
+    margin-left: 1.3em;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.text-block__bold {
+    margin-top: $pad-md;
+    font-weight: bold;
+}
+
+.text-block__break {
+    height: $pad-lg;
+}
