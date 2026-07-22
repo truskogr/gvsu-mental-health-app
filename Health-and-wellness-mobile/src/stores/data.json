@@ -214,7 +214,7 @@
       {
         "subscript": "may be",
         "label": "Suicidal",
-        "secundaryBody": "QPR Suicide Prevention Gatekeeper Trainings are held throughout the year and are open to students, faculty, and staff.  Visit the University Counseling Center [link https://www.gvsu.edu/counsel/module-events-calendar.htm?siteModuleId=8BEB22D5-E16B-7BDE-C0A104132E7438D5 placeholder: outreach calendar] for scheduled dates and times.\nTo request a QPR Suicide Prevention Gatekeeper Training for your department or a student, faculty, or staff group, visit the University Counseling Center [link https://www.gvsu.edu/counsel/outreach-141.htm, placeholder: outreach request site].",
+        "secundaryBody": "QPR Suicide Prevention Gatekeeper Trainings are held throughout the year and are open to students, faculty, and staff.  Visit the University Counseling Center [link https://www.gvsu.edu/counsel/outreach-and-events-141.htm, placeholder: outreach calendar] for scheduled dates and times.\nTo request a QPR Suicide Prevention Gatekeeper Training for your department or a student, faculty, or staff group, visit the University Counseling Center [link https://www.gvsu.edu/counsel/outreach-141.htm, placeholder: outreach request site].",
         "description": "[picture suicide]\nIn the United States, someone attempts suicide every 27 seconds.  While suicide is the 10th leading cause of death nationally, it is the 2nd leading cause of death among college students – and rates are on the rise.  Suicide may be difficult to talk about, but the warning signs should never be ignored.  Whereas most are not trained to treat those who are experiencing suicidality, anyone can help save a life.",
         "resourcesRelevant": [
           {
@@ -227,7 +227,7 @@
           },
           {
             "name": "National Resources",
-            "body": "Additional resources are available for those experiencing suicidal thoughts.  It might be helpful to post these somewhere in your office or share them with students of concern, but providing these resources should not take the place of seeking help directly when confronted with a suicidal student.\nCrisisText:  Text [phone 741741]\nNational Suicide Hotline: [phone 1-800-273-8255]\nTrevor Lifeline (LGBTQIA+ suicide prevention / support):  Call [phone 1-866-488-7386]\n Trans Lifeline:  Text \"Trevor\" to [phone 1-202-304-1200] \n Call [phone 1-877-565-8860]\nVeterans Crisis Line: Text [phone 838255] \n Call [phone 1-800-273-8255]\n[phone 911]"
+            "body": "Additional resources are available for those experiencing suicidal thoughts.  It might be helpful to post these somewhere in your office or share them with students of concern, but providing these resources should not take the place of seeking help directly when confronted with a suicidal student.\nCrisisText:  Text [phone 741741]\nNational Suicide Hotline: [phone 1-800-273-8255]\nTrevor Lifeline (LGBTQIA+ suicide prevention / support):  Call [phone 1-866-488-7386]\n Trans Lifeline:  Text \"Trevor\" to [phone 1-202-304-1200] \n Call [phone 1-877-565-8860]\nVeterans Crisis Line: Text [phone 838255] \n Call [phone 1-800-273-8255]\n[phone 988]"
           }
         ],
         "videoLink": "AecNqFk8glo",
@@ -498,11 +498,11 @@
         },
         {
           "header": "I have a student who I’m concerned is USING ALCOHOL OR DRUGS",
-          "body": "The University offers resources to help students who are struggling with alcohol or drug use.  Students may be referred to Alcohol and Other Drugs Services, or AOD, for information, support, and treatment.  Through AOD Services, the University Counseling Center provides prevention and outreach programming, as well as individual and group counseling for substance-related concerns.  Meetings are also available on-campus for students and community members in active recovery.  To learn more about AOD Services, students can visit the [link https://www.gvsu.edu/aod, placeholder: Aces Website] or call\n [phone 616-331-2537].\n\nIf you are concerned that a student is under the influence of alcohol or drugs in class or a meeting, please call GVPD to share your observations.  Signs may include slurred speech, difficulty with balance, dilated pupils, or loss of consciousness, among others.  Even if a student is not exhibiting these symptoms, a call to GVPD is still warranted if you are concerned that they are intoxicated."
+          "body": "The University offers resources to help students who are struggling with alcohol or drug use.  Students may be referred to Alcohol and Other Drugs Services, or AOD, for information, support, and treatment.  Through AOD Services, the University Counseling Center provides prevention and outreach programming, as well as individual and group counseling for substance-related concerns.  Meetings are also available on-campus for students and community members in active recovery.  To learn more about AOD Services, students can visit the [link https://www.gvsu.edu/aod, placeholder: AOD Website] or call\n [phone 616-331-2537].\n\nIf you are concerned that a student is under the influence of alcohol or drugs in class or a meeting, please call GVPD to share your observations.  Signs may include slurred speech, difficulty with balance, dilated pupils, or loss of consciousness, among others.  Even if a student is not exhibiting these symptoms, a call to GVPD is still warranted if you are concerned that they are intoxicated."
         },
         {
           "header": "I have a student who has experienced SEXUAL ASSAULT/PARTNER VIOLENCE",
-          "body": "Services are available to students who have experienced sexual assault, stalking, or intimate partner violence.  Students may be referred to the Victim Advocate for support and resources. For more information about victim advocacy visit the [link https://www.gvsu.edu/cwge/, placeholder: Center for Women and Gender Equity].\n  Students can schedule an appointment with the Victim Advocate by calling [phone 616-331-2748].\n\n Additionally, the University Counseling Center provides individual and group counseling to sexual assault survivors.  Additional information is available on the [link https://www.gvsu.edu/counsel/community]\n or by calling [phone 616-331-3266].\n If a student reveals a recent sexual assault and is in crisis, please click the “I Have an Emergency” button. /n You may be required to report what was disclosed as a University employee. For more information about Title IX reporting for faculty and staff, please visit the Office for [link https://www.gvsu.edu/titleix/, placeholder: Title IX and Institutional Equity website].\n If someone has disclosed to you a sexual assault or trauma, consider the following tips:\n- Thank them for trusting you\n- Allow them to share without prodding or asking unnecessary questions\n- Avoid giving advice or saying things like, “That wouldn’t have happened if. . .” or “You should have. . . ”\n- Tell them that you are sorry about what happened to them\n- Offer your support and resources to help them cope"
+          "body": "Services are available to students who have experienced sexual assault, stalking, or intimate partner violence.  Students may be referred to the Victim Advocate for support and resources. For more information about victim advocacy visit the [link https://www.gvsu.edu/cwge/, placeholder: Center for Women and Gender Equity].\n  Students can schedule an appointment with the Victim Advocate by calling [phone 616-331-2748].\n\n Additionally, the University Counseling Center provides individual and group counseling to sexual assault survivors.  Additional information is available on [link https://gvsu.thrivingcampus.com/, placeholder: the University Counseling Center’s network of community mental health providers, Thriving Campus]\n or by calling [phone 616-331-3266].\n If a student reveals a recent sexual assault and is in crisis, please click the “I Have an Emergency” button. /n You may be required to report what was disclosed as a University employee. For more information about Title IX reporting for faculty and staff, please visit the Office for [link https://www.gvsu.edu/titleix/#:~:text=The%20Office%20of%20Civil%20Rights%20and%20Title%20IX%20serves%20as,oversees%20the%20university%27s%20grievance%20process, placeholder: Office of Civil Rights and Title IX website].\n If someone has disclosed to you a sexual assault or trauma, consider the following tips:\n- Thank them for trusting you\n- Allow them to share without prodding or asking unnecessary questions\n- Avoid giving advice or saying things like, “That wouldn’t have happened if. . .” or “You should have. . . ”\n- Tell them that you are sorry about what happened to them\n- Offer your support and resources to help them cope"
         }
       ]
     }
@@ -568,7 +568,7 @@
       {
         "department": "Health Center",
         "link": "https://www.gvsu.edu/campushealth/",
-        "phone": "616-252-6030",
+        "phone": "616-685-7600",
         "email": "",
         "picture": ""
       },
@@ -643,6 +643,20 @@
         "email": "",
         "picture": "",
         "hidden": true
+      },
+      {
+        "department": "Recreation and Wellness",
+        "link": "https://www.gvsu.edu/rec/",
+        "phone": "616-331-1732",
+        "email": "",
+        "picture": ""
+      },
+      {
+        "department": "Padnos International Center",
+        "link": "https://www.gvsu.edu/pic/",
+        "phone": "616-331-3898",
+        "email": "",
+        "picture": ""
       }
     ]
   },
@@ -662,7 +676,7 @@
       },
       {
         "question": "What if I'm worried about someone who is not a student (myself, a faculty or staff member, etc.)?",
-        "answer": "Although the University Counseling Center only provides treatment to currently enrolled students, there are many resources available to others who may be struggling with their mental health. For you and other members of the faculty/staff: \n- If there is an immediate threat to self or others, call 911 or GVPD at [phone 616-331-3255].\n- The Human Resources Office offers free mental health services to University employees through Encompass [link https://www.gvsu.edu/hro/].\n- Faculty and staff can access the University Counseling Center community provider database for assistance in identifying a clinician who meets their needs [link https://www.gvsu.edu/counsel/community].\n For family members or loved ones:\n- If there is an immediate threat to self or others, call 911.\n- Utilize the University Counseling Center community provider database [link https://www.gvsu.edu/counsel/community].\n- For West Michigan mental health resources, visit Psychology Today [link https://www.psychologytoday.com]."
+        "answer": "Although the University Counseling Center only provides treatment to currently enrolled students, there are many resources available to others who may be struggling with their mental health. For you and other members of the faculty/staff: \n- If there is an immediate threat to self or others, call 911 or GVPD at [phone 616-331-3255].\n- The Human Resources Office offers free mental health services to University employees through Encompass [link https://www.gvsu.edu/hro/].\n For family members or loved ones:\n- If there is an immediate threat to self or others, call 911.\n- For West Michigan mental health resources, visit Psychology Today [link https://www.psychologytoday.com]."
       },
       {
         "question": "What mental health resources/services does UCC offer?",
@@ -699,10 +713,10 @@
     "techniques": [
       {
         "header": "Mindfulness Minute",
-        "body": "Mindfulness has been proven to reduce stress. Starting your class with a short 2:00 minute video can help students decrease stress and prepare for learning.\n[video: cEqZthCaMpo]\n In addition, you can link to longer videos on Blackboard or in your syllabus and encourage students to utilize them.\n[video: sG7DBA-mgFY]\n[video: QS2yDmWk0vs]"
+        "body": "Mindfulness has been proven to reduce stress. Starting your class with a short 2:00 minute video can help students decrease stress and prepare for learning.\n[video: cEqZthCaMpo]\n In addition, you can link to longer videos on Blackboard or in your syllabus and encourage students to utilize them.\n[video: sG7DBA-mgFY]"
       },
       {
-        "header": "Syllabus Disclaimer",
+        "header": "Syllabus Statement",
         "body": "A brief statement in your syllabus can show students that you are supportive of their mental health, while also introducing them to services and reducing stigma around seeking treatment. Below is an example of a statement to include in your syllabus:\n\n\"Mental health concerns, including overwhelming stress, excessive worry, difficulty participating in daily activities, and changes in mood, appetite, or sleep patterns, can interfere with your academic performance. It is important to know that Grand Valley State University values your health and wellness and provides services to support your mental health on campus. If you are struggling with your mental health or are concerned for another member of our campus community, I urge you to reach out to the University Counseling Center for resources and available services.\"\n\nUniversity Counseling Center:\n[phone 616-331-3266]\n[link https://www.gvsu.edu/counsel/]"
       },
       {

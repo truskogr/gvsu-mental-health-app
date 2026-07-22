@@ -24,10 +24,12 @@ export default class EmergencyButton extends React.Component {
     @action
     private handleOpenModal = () => {
         this.handleToggleModalVisible(true)
+        this.forceUpdate()
     }
 
     @action
     private handleToggleModalVisible = (visible: boolean) => {
             this.modalVisible = visible
+            this.forceUpdate()
     }
 }

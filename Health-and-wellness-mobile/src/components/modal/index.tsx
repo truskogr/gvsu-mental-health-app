@@ -5,7 +5,6 @@ import {
   IonHeader,
   IonTitle,
   IonButtons,
-  IonButton,
   IonToolbar,
 } from '@ionic/react';
 import { close } from 'ionicons/icons';
@@ -18,6 +17,7 @@ export interface ModalProps {
   showModal: boolean;
   forceModal: boolean;
   onToggleModalVisible?: (visible: boolean) => void;
+  children?: React.ReactNode
 }
 
 export default class Modal extends React.Component<ModalProps> {

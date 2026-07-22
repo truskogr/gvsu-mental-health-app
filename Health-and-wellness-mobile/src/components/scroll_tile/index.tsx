@@ -17,6 +17,7 @@ export interface ScrollTileProps {
   onToggleOpen?: (open: boolean) => void;
   fillWidth: boolean;
   homeView: boolean;
+  children?: React.ReactNode
 }
 
 @observer

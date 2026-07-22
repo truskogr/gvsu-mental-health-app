@@ -17,6 +17,7 @@ export interface ButtonProps {
     disabled?: boolean
     className?: string
     onClick?: () => void
+    children?: React.ReactNode
 }
 
 export default class Button extends React.Component<ButtonProps> {

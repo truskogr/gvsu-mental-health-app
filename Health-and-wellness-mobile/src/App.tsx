@@ -7,7 +7,8 @@ import {
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
-  IonTabs
+  IonTabs,
+  setupIonicReact
 } from '@ionic/react'
 import { IonReactRouter } from '@ionic/react-router'
 import { apps, home, aperture, help, square } from 'ionicons/icons'
@@ -33,6 +34,9 @@ import './theme/variables.scss'
 import Store from './stores/store'
 import PreferencesStore from './stores/preferences_store'
 import DataStore from './stores/data_store'
+
+//This allows to setup ionic
+setupIonicReact();
 
 //create an instance of each store to add to the common store directory in the app
 const preferencesStore = new PreferencesStore()

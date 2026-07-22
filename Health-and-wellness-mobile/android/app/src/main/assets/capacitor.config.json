@@ -1,13 +1,13 @@
 {
-  "appId": "edu.gvsu.mentalhealth",
-  "appName": "GV Mental Health",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "build",
-  "plugins": {
-    "SplashScreen": {
-      "launchShowDuration": 0
-    }
-  },
-  "cordova": {}
+	"appId": "edu.gvsu.mentalhealth",
+	"appName": "GV Mental Health",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"cordova": {}
 }

@@ -1,7 +1,11 @@
 import React from 'react';
-import { IonSlides, IonSlide } from '@ionic/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import Card from '../card';
 import './index.scss';
+import 'swiper/css';
+import 'swiper/swiper-bundle.css';
+import '@ionic/react/css/ionic-swiper.css';
+
 export interface Slide {
   title?: string;
   body: JSX.Element;
@@ -20,45 +24,40 @@ export default class Slides extends React.Component<SlideProps> {
     slidesPerView: 1,
   };
 
+  private swiper: any = null;
+
+  private initSwiper = (swiper: any) => {
+    this.swiper = swiper;
+  };
+
+  private prevClicked = () => {
+    if (this.swiper) {
+      this.swiper.slidePrev();
+    }
+  };
+
+  private nextClicked = () => {
+    if (this.swiper) {
+      this.swiper.slideNext();
+    }
+  };
+
   public render() {
-    const { slides, loop, slidesPerView } = this.props;
-    const slidesOpts = {
-      loop: loop,
-      slidesPerView: slidesPerView,
-    };
+    const { slides, loop, slidesPerView, stretchCards = false } = this.props;
 
-    let swiper: any = null;
-
-    const init = async function (this: any) {
-      swiper = await this.getSwiper();
-    };
-    let prevClicked = () => {
-      if (swiper !== null && swiper !== undefined) {
-        swiper.slidePrev();
-      }
-    };
-    let nextClicked = () => {
-      if (swiper !== null && swiper !== undefined) {
-        swiper.slideNext();
-      }
-    };
     return (
       <div className="slides-container">
-        <IonSlides options={slidesOpts} onIonSlidesDidLoad={init}>
-          {slides.map((slide, idx) => {
-            const title = slide.title ? slide.title : undefined;
-            const stretch = this.props.stretchCards;
-            return (
-              <IonSlide key={idx}>
-                <Card title={title} stretch={stretch}>
-                  {slide.body}
-                </Card>
-              </IonSlide>
-            );
-          })}
-        </IonSlides>
-        <div className="swiper-button-prev" onClick={prevClicked}></div>
-        <div className="swiper-button-next" onClick={nextClicked}></div>
+        <Swiper loop={loop} slidesPerView={slidesPerView} onInit={this.initSwiper}>
+          {slides.map((slide, idx) => (
+            <SwiperSlide key={idx}>
+              <Card title={slide.title} stretch={stretchCards}>
+                {slide.body}
+              </Card>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+        <div className="swiper-button-prev" onClick={this.prevClicked}></div>
+        <div className="swiper-button-next" onClick={this.nextClicked}></div>
       </div>
     );
   }

@@ -1,6 +1,6 @@
-import * as firebase from "firebase/app"
-import "firebase/auth"
-require('dotenv').config();
+import firebase from "firebase/compat/app"
+import "firebase/compat/auth"
+// require('dotenv').config();
 
 const firebaseConfig = {
     apiKey: 'AIzaSyB0kG4XlVGC5l2PGKSkbDDGm9gFkcMuaxo',

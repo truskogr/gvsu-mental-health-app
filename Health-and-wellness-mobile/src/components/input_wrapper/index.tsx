@@ -18,6 +18,7 @@ export interface InputProps {
     disabled?: boolean
     className?: string
     autofocus?: boolean
+    children?: React.ReactNode
 }
 
 export default class Input extends React.Component<InputProps> {

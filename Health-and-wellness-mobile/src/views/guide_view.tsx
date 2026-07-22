@@ -323,6 +323,7 @@ export default class GuideView extends React.Component<ViewProps> {
   @action
   private handleToggleConcernTile = (open: boolean) => {
     this.ofConcernOpen = open;
+    this.forceUpdate();
   };
 
   @action
@@ -336,48 +337,56 @@ export default class GuideView extends React.Component<ViewProps> {
         });
         tile.open = true;
       }
+      this.forceUpdate();
     };
   };
 
   @action
   private handleToggleOpen(tile: GuideTile, open: boolean) {
     tile.open = open;
+    this.forceUpdate();
   }
 
   @action
   private handleToggleWarningSignsOpen = (tile: GuideTile) => {
     return () => {
       tile.warningSignsOpen = !tile.warningSignsOpen;
+      this.forceUpdate();
     };
   };
   @action
   private handleToggleDosAndDontsOpen = (tile: GuideTile) => {
     return () => {
       tile.dosAndDontsOpen = !tile.dosAndDontsOpen;
+      this.forceUpdate();
     };
   };
   @action
   private handleToggleResourcesRelevantOpen = (tile: GuideTile) => {
     return () => {
       tile.resourcesRelevantOpen = !tile.resourcesRelevantOpen;
+      this.forceUpdate();
     };
   };
   @action
   private handleToggleBodyOpen = (tile: GuideTile) => {
     return () => {
       tile.bodyOpen = !tile.bodyOpen;
+      this.forceUpdate();
     };
   };
 
   private handleToggleModal = (tile: GuideTile) => {
     return action((open: boolean) => {
       tile.open = open;
+      this.forceUpdate();
     });
   };
 
   private handleCloseModal = (tile: GuideTile) => {
     return () => {
       this.handleToggleOpen(tile, false);
+      this.forceUpdate();
     };
   };
 

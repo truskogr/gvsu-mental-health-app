@@ -1,11 +1,9 @@
 import React, { useRef } from 'react';
 import { ResourceTile, GuideTileInfo } from '../../stores/models/data_models';
 import {
-  IonList,
   IonImg,
   IonRouterLink,
   IonIcon,
-  IonSlides,
 } from '@ionic/react';
 import Slides from '../horizontal-slides';
 import InfiniteScroll from '../infinite-scroll';

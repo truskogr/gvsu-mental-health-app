@@ -1,7 +1,7 @@
 import { computed } from 'mobx'
-import { GuideTileInfo, GuideResource, HomeLinks, EmergencyInfo, FaqInfo, TechniqueInfo, ResourceTile } from './models/data_models'
+import { GuideTileInfo, HomeLinks, EmergencyInfo, FaqInfo, TechniqueInfo, ResourceTile } from './models/data_models'
 
-import * as SystemData from '../stores/data.json'
+import SystemData from '../stores/data.json'
 
 export default class DataStore {
 

@@ -9,6 +9,7 @@ export type ButtonType = "button" | "reset" | "submit"
 export interface cardProps {
     title?: string
     stretch: boolean
+    children?: React.ReactNode
 }
 
 export default class Card extends React.Component<cardProps> {
